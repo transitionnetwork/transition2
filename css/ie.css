@@ -1,0 +1,101 @@
+#top-links {
+border-radius: 0px 0px 10px 10px;
+background-color: #868680;
+background: linear-gradient(#b3b2ab, #868680);
+-pie-background: linear-gradient(#b3b2ab, #868680);
+behavior:url(/sites/all/themes/transition2/PIE.htc);}
+
+#footer-message {
+border-radius: 10px 10px 0px 0px;
+background-color: #868680;
+background: linear-gradient(#b3b2ab, #868680);
+-pie-background: linear-gradient(#b3b2ab, #868680);
+behavior:url(/sites/all/themes/transition2/PIE.htc);}
+
+#main .slideshow h1.welcome {
+border-radius: 0px 0px 5px 0px; 
+-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;
+background: linear-gradient(#d0e7b4,#9ccf5f);
+-pie-background: linear-gradient(#d0e7b4,#9ccf5f);
+behavior:url(/sites/all/themes/transition2/PIE.htc);	
+}
+
+.slideshow .desc {
+-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;
+border-radius: 5px 0px 0px 5px; 
+behavior:url(/sites/all/themes/transition2/PIE.htc);
+}
+
+.slideshow .learn {
+-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;
+border-radius: 5px 0px 0px 5px; 
+background: linear-gradient(#d0e7b4,#9ccf5f);
+-pie-background: linear-gradient(#d0e7b4,#9ccf5f);
+behavior:url(/sites/all/themes/transition2/PIE.htc);	
+}
+	
+#headwrap form#search-theme-form .form-submit{background-color: #ffffff;
+background:#fff;
+}
+
+.stage_container a.stage_start {
+color: #fff;
+background: #248467 url(/sites/all/themes/transition2/images/buttonleaf.png) no-repeat 96% center;
+}
+
+.stage_container a:hover.stage_start {
+color: #fff;
+background: #5BA38D url(/sites/all/themes/transition2/images/buttonleaf.png) no-repeat 96% center;
+}
+
+.stage_container a.stage_deep {
+color: #fff;
+background: #466b8f url(/sites/all/themes/transition2/images/buttonleaf.png) no-repeat 96% center;
+}
+
+.stage_container a:hover.stage_deep {
+color: #fff;
+background: #7590AB url(/sites/all/themes/transition2/images/buttonleaf.png) no-repeat 96% center;
+}
+
+.stage_container a.stage_connect {
+color: #fff;
+	background: #e8a130 url(/sites/all/themes/transition2/images/buttonleaf.png) no-repeat 96% center;
+}
+
+.stage_container a:hover.stage_connect {
+color: #fff;
+background:#EEB964 url(/sites/all/themes/transition2/images/buttonleaf.png) no-repeat 96% center;
+}
+
+.stage_container a.stage_build {
+color: #fff;
+background: #D21D36 url(/sites/all/themes/transition2/images/buttonleaf.png) no-repeat 96% center;
+}
+
+.stage_container a:hover.stage_build {
+color: #fff;
+background: #DE5669 url(/sites/all/themes/transition2/images/buttonleaf.png) no-repeat 96% center;
+}
+
+.stage_container a.stage_daring {
+color: #fff;
+background: #981d7e url(/sites/all/themes/transition2/images/buttonleaf.png) no-repeat 96% center;
+}
+
+.stage_container a:hover.stage_daring {
+color: #fff;
+background: #B2569F url(/sites/all/themes/transition2/images/buttonleaf.png) no-repeat 96% center;
+}
+
+/* Custom new Dec 2012 projects form stuffs - LW */
+.project-page.node-edit form fieldset.group-find legend, .project-page.node-edit form fieldset.location legend, .project-page.node-edit form fieldset.group-people-contact legend, .project-page.node-edit form fieldset.group-about-project legend,.project-page.node-edit form fieldset.group-additional legend {
+    left: -.5em;
+    left: 0em\9;
+    width: 105%; /* The legend is 1px too norrow in IE7 and 8, and about an em too narrow in IE6 */
+}
+
+.project-page.node-edit form fieldset.location fieldset.location-current-coordinates-fieldset legend {
+  left: -2em;
+  width: 105%; 
+ }

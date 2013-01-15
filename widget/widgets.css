@@ -1,0 +1,88 @@
+body#widgetbox{
+font:0.813em/165% 'Lucida Grande',Verdana,Helvetica,sans-serif;color:#353535;margin:0;font-style:normal;}
+
+body#widgetbox .clear-block {
+  display:block;
+  }
+body#widgetbox #boxwrap {
+margin: 3px 3px 5px;
+padding: 0px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-moz-box-shadow:0px 0px 2px #dce1da;
+-webkit-box-shadow:0px 0px 2px #dce1da;
+box-shadow:0px 0px 2px #dce1da;
+}
+body#widgetbox #boxwrap #sharebox {
+padding-left: 10px;
+border:1px solid #dce1da;border-bottom: none;padding:10px;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+background:  #fff;
+background-image:-moz-linear-gradient(top,#ffffff,#FAFBFA);
+background-image:-webkit-gradient(linear,left bottom,left top,color-stop(0,#FAFBFA),color-stop(1,#ffffff));
+}
+
+body#widgetbox #boxwrap #sharebox h1.page-title {
+color: #353535;
+margin: 0px 5px 5px 5px;
+padding-bottom: 5px;font-size: 1.2em;border-bottom:2px solid #e5e9e4;
+}
+
+body#widgetbox #boxwrap #sharebox .view-content  {
+padding: 0px;margin: 0px 5px;}
+
+body#widgetbox #boxwrap #sharebox .view-content ul {
+padding-left: 0;list-style: none;margin: 0;}
+
+body#widgetbox #boxwrap #sharebox .view-content ul li {
+padding: 0px;margin: 3px 0px 3px;
+list-style: none;
+line-height: 1.4em;}
+
+body#widgetbox #boxwrap #boxcredit {
+border-top:2px solid #dce1da;
+border-left:1px solid #dce1da;
+border-right:1px solid #dce1da;
+border-bottom:1px solid #dce1da;
+background: #f8f9f8;-webkit-border-bottom-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+body#widgetbox #boxwrap #sharebox li a {
+  color:#353535;
+  text-decoration:none;
+	display: block;
+}
+
+body#widgetbox #boxwrap #sharebox li a:hover {
+  color:#027583;
+  text-decoration:none;
+  }
+body#widgetbox #boxwrap #boxcredit .powered {
+  padding: 0px 7px 0px 5px;
+	}
+
+body#widgetbox #boxwrap #boxcredit .powered a {
+	outline:0;}
+
+body#widgetbox #boxwrap #boxcredit .powered img {
+	vertical-align:middle;
+	margin-left: 4px;}
+
+body#widgetbox #boxwrap #boxcredit .powered p {
+	text-align: right;
+	font-style: italic;margin: 5px 0 5px 0;	font-size: 90%;}
+
+body#widgetbox #boxwrap .views-admin-links.views-hide {
+	display: none;visibility: hidden;
+}

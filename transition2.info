@@ -1,0 +1,28 @@
+name = Transition2
+description = Transition Network Theme 2 - XHTML/CSS/ with a sprinkle of sparkly 960gs 
+version = 2.4
+core = 6.x
+engine = phptemplate
+
+stylesheets[all][] = css/960.css
+stylesheets[all][] = css/fonts/stylesheet.css
+stylesheets[all][] = transition2.css
+stylesheets[print][] = css/print.css
+
+scripts[] = js/hoverIntent.js
+scripts[] = js/superfish.js
+scripts[] = js/tt.js
+scripts[] = js/aria-roles.js
+
+regions[top_links] = Top Login Bar
+regions[left] = Left Sidebar
+regions[right] = Right Sidebar
+regions[content_top] = Content Top
+regions[content_top_inline] = Content Top Inline
+regions[content_bottom] = Content Bottom
+regions[content_bottom_inline] = Content Bottom Inline
+regions[footer_inline] = Footer Inline
+regions[footer_usermenu_inline] = Footer User Sitemap Menus Inline
+regions[footer_banner] = Footer Banner Badges
+regions[closure_region] = Closure
+
