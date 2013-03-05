@@ -3662,3 +3662,76 @@ div.ijk-collapsible.pane-content.collapsed {
 #main .faq_section h2:hover {
   color: #026874;
 }
+
+.ijk-collapsible .pane-content, .faq_section {
+  padding: 0px 0 0;
+  margin: 0 0 15px;
+  background-color: #ffffff;
+  border-bottom: 3px solid #9ccf55;
+  border-top: 1px solid #dce1da;
+  border-right: 1px solid #dce1da;
+  border-left: 1px solid #dce1da;
+  -webkit-box-shadow: 0px 2px 1px #c3c3c3;
+  -moz-box-shadow: 0px 2px 1px #c3c3c3;
+  box-shadow: 0px 2px 1px #c3c3c3;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+
+.ijk-collapsible .handle .more {
+  text-align: center;
+}
+
+.ijk-collapsible.expanded {
+  padding: 0 10px;
+}
+
+.ijk-collapsible:hover {
+  background: #fbfbfb;
+}
+
+.ijk-collapsible .handle {
+  cursor: pointer;
+}
+
+div.ijk-collapsible.pane-content.collapsed {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ijk-collapsible dl.handle, .ijk-collapsible dl.handle dd,.ijk-collapsible dl.handle dt {
+  border: none;
+}
+
+.toggleable .handle {
+  display: block;
+  text-align: center;
+  text-align: center;
+}
+
+.ijk-collapsible .handle span {
+  color: #fff;
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+  display: inline;
+  padding: 2px 8px 3px 8px;
+  color: #ffffff;
+  font-weight: 400;
+  background: #9ccf55;
+}
+
+.ijk-collapsible .handle span:hover {
+  color: #fff;
+  background: #b2d77d;
+}
+
+#main .faq_section h2 {
+  margin-top: 0px;
+  color: #026874;
+}
+
+#main .faq_section h2:hover {
+  color: #026874;
+}
