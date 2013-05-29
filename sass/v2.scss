@@ -1,0 +1,60 @@
+@import "compass/css3/opacity";
+
+body.front, body.not-front{
+background: $neutral_tint_3 $bodytexture;
+background-attachment:fixed;
+background-repeat:repeat;
+}
+
+#body-container{
+background: $turquoise_tint_2 $containtertexture;}
+
+/*remove textures on panels and blocks*/
+.panel-pane.pane-views-panes.pane-featured-content-panel-pane-2.hp-block{
+background:$green_tint_2;}
+.slideshow .desc {background:$yellow_tint_4; opacity:.9;}
+.greystripe_bg, .greenstripe_bg, .sidebar .block, .new-bricks .address-contact {
+background:$neutral;}
+.sidebar ul.menu li a:link, .sidebar ul.menu li a:visited{
+    background:$neutral_tint_3}
+.sidebar ul.menu li a:hover, .sidebar ul.menu li a:focus, .sidebar ul.menu li a:active {
+	background:$yellow;
+	}
+#page .bookpromo {
+    background: $yellow;}
+
+/*add monsters*/
+
+.panel-pane.pane-views-panes.pane-featured-content-panel-pane-2.hp-block{
+background: $green_tint_2 url(images/ingredient_carrot.png) no-repeat;
+background-position:right bottom;
+padding-bottom:40px;
+background-repeat:none;
+
+}
+.center-wrapper .panel-pane{
+background-image: url("images/turquoise_transitioner.png");
+background-repeat:no-repeat;
+background-attachment:scroll;
+background-position:250px 12px;
+background-color:$neutral_tint_2;
+}
+#footer-inline-region{
+
+
+	#block-views-news-block_1, #block-views-blogs-block_1{
+	background: $neutral_tint_2 url(images/green_transitioner.png) no-repeat;
+	padding-bottom:73px;
+	background-repeat:none;
+	background-position:right bottom;
+	}
+	
+	#block-views-initiative_directory-block_1, #block-views-reconomy_feed-block_1{
+	background: $neutral_tint_2 url(images/blue_transitioner.png) no-repeat;
+	padding-bottom:63px;
+	background-repeat:none;
+	background-position:left bottom;
+	}
+}
+#footer-message { 
+    background: url(images/peeking.png) no-repeat 400px -68px #868680;}

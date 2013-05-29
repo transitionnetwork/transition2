@@ -1,0 +1,597 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "colours";
+
+@mixin hidden 
+{position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;}
+
+
+/* V0*/
+
+$bodytexture: url(images/noisy-texture-big-200x200.png);
+$containtertexture: url(images/noisy-texture-200x200.png);
+$corner: 2px;
+
+/* V1
+$bodytexture: url(images/noisy-texture-big2-200x200.png);
+$containtertexture: url(images/mooning3.png);
+$corner: 2px;
+
+$bodytexture: url(images/transitioners.png);
+$containtertexture: url(images/subtle_white_feathers.png);
+$corner: 10px;
+*/
+
+
+/*bens first scss*/
+
+/*reduce header height*/
+#nav{
+width:700px;
+margin:0;
+clear: none;
+}
+#header{height: 65px;}
+
+
+body.front, body.not-front{
+background: $turquoise_tint_3_5 $bodytexture;
+background-attachment:fixed;}
+#body-container{
+background: $neutral_tint_1 $containtertexture;
+}
+/*body.front, body.not-front{
+background: $turquoise_tint_4 $bodytexture;
+background-attachment:fixed;}
+#body-container{
+background: $neutral_tint_1 $containtertexture;
+}*/
+
+#body-container{
+box-shadow: 0 0 20px 0 #666	;
+width:960px;
+margin:0 auto;
+}
+
+
+#page-container, #page,
+#footer-container, #footer {
+background:transparent;
+}
+
+img[align="left"] {
+    margin: 0 20px 10px 0;
+    padding: 1px;
+}
+img[align="right"] {
+    margin: 0 0 10px 20px;
+    padding: 1px;
+}
+
+h1#page-title, h2#page-title, .sidebar .block h2, .sidebar .block h3, .panel-pane h2.title, #footer h2, #main h2.pane-title {
+    font-family: 'ArvoRegular',georgia,times,"Times New Roman",serif;
+}
+
+/*panels*/
+
+
+@import "compass/css3/box-shadow";
+@import "compass/css3/transform";
+
+@mixin corner-lift( $color: rgba(0, 0, 0, 0.2), $angle: 3deg, $bottom-offset: 10px ) {
+    $height: 40px; // Default max height shadow can be
+    position: relative;
+    &:before,
+    &:after {
+        bottom: 22px - $bottom-offset;
+        content: '\0020';
+        height: $height;
+        max-width: 50%;
+        position: absolute;
+        width: 50%;
+        z-index: -1;
+        @include box-shadow( 0 15px 5px $color );
+    }
+    &:before {
+        @include transform( skew( -4deg, -$angle ) );
+        left: 8px;
+    }
+    &:after {
+        @include transform( skew( 4deg, $angle ) );
+        right: 8px;
+    }
+}
+#main h2.pane-title {
+    border-bottom: none;
+	margin:3px;
+	padding:0;
+	font-family: 'ArvoRegular',georgia,times,"Times New Roman",serif;
+	}
+#main h3 {
+	    margin: 0;
+	    padding: 0;
+	}
+.panel-pane p{
+margin:1em;
+padding:0;
+}
+.panel-pane .view-featured-content {
+background-color:white;
+border-radius:$corner;
+}
+.panel-pane .panel-pane-inner .pane-content{
+padding:.5em;
+margin:1px;
+}
+.panel-pane{
+@include corner-lift;
+background:$neutral_tint_4;
+border-radius: $corner;
+margin-top:1em;
+}
+.panel-panel .inside{
+position:relative;
+z-index:1;
+}
+.panel-panel{
+margin-top:0;
+display:block;
+}
+.panel-display .center-wrapper{
+clear:both;
+}
+.pane-slideshows-panel-pane-1{
+width:660px;
+}
+.panel-panel.panel-col-middle{
+margin-top:1em;
+position:relative;
+top:1em;
+}
+.panel-pane.pane-views-panes.pane-featured-content-panel-pane-2.hp-block{
+margin:1em 0 1em;
+padding:0;
+background:$green_tint_3 $containtertexture;
+border-radius: $corner;
+box-shadow: none;
+}
+.panel-pane-inner{
+margin:.5em;
+padding:.5em;
+}
+.panel-pane .pane-content{
+background: white;
+border-radius: $corner;
+height:100%;
+}
+.hp-block {
+    min-height: 0px;
+}
+/*footer*/
+#footer-inline-region .block{
+@include corner-lift;
+background:$neutral_tint_2 $containtertexture;
+border-radius: $corner;
+}
+#footer-inline-region{
+position:relative;
+z-index:1;
+padding:0 10px;
+margin:1em 0;
+border:none;
+}
+#footer-banner-region{
+position:relative;
+z-index:1;margin: 0 10px 25px;
+    padding: 0;}
+#footer-banner-region .block{
+@include corner-lift;
+background-color:white;
+border-radius: $corner;}
+#footer-inline-region .block-inner{
+margin-top:0px;
+}
+#footer {
+padding:0;
+margin:0;
+}
+#footer-message{
+border-radius:$corner $corner 0 0;
+}
+#footer-inline-region .block-inner { min-height:none; }
+.newsletter a.button {
+    background-color: #9CCF55;
+    background-image: -moz-linear-gradient(center top , #B2D77D, #9CCF55);}
+#footer-inline-region{
+position:relative;
+z-index:1;
+}
+#footer-inline-region .block-inner .content {
+padding:1px;
+    border-radius: $corner;}
+
+/*join button*/
+@mixin gradientbutton($from, $to) {
+background:repeat scroll 0 0 transparent;
+/* fallback/image non-cover color */
+background-color: $from;
+ 
+/* Firefox 3.6+ */
+background-image: -moz-linear-gradient($from, $to);
+ 
+/* Safari 4+, Chrome 1+ */
+background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from($from), to($to));
+ 
+/* Safari 5.1+, Chrome 10+ */
+background-image: -webkit-linear-gradient($from, $to);
+ 
+/* Opera 11.10+ */
+background-image: -o-linear-gradient($from, $to);
+box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+border-radius:0 0  $corner  $corner;
+}
+
+#block-block-50 .top-links-ul li {
+@include gradientbutton($green_tint_2, $green);
+}
+
+#block-block-50 .top-links-ul li.first{
+@include gradientbutton($red_tint_2, $red);
+}
+#block-block-50 .top-links-ul li.last{
+@include gradientbutton($turquoise_tint_2, $turquoise);
+}
+.top-links-ul li:after{
+content:none;
+}
+.top-links-ul li {
+    padding: 0 0.5em;
+margin-right:5px;
+}
+#top-links .block {
+    margin-top: 0;}
+#top-links .intro-links-ul{
+margin-top:7px;
+}
+#top-links .top-links-ul li {
+padding-top:6px;
+font-size:14px;
+padding-bottom:3px;
+position:relative;
+top:-2px;
+}
+.top-links-ul li a, .top-links-ul li a:visited {
+text-shadow:none;}
+
+/*slideshow*/
+#main-content .slideshow{
+margin-left: 0px;
+}
+
+#main-content .slideshow img{
+border-radius: $corner;
+}
+.pane-slideshows-panel-pane-1{
+background:none;
+box-shadow:none;
+margin:0;
+}
+.pane-slideshows-panel-pane-1 .panel-pane-inner{
+margin:0;
+padding:0;
+}
+.panel-pane.pane-slideshows-panel-pane-1 .pane-content{
+padding:0;
+margin:0;
+}
+.pane-slideshows-panel-pane-1 .clear{
+display:none;
+}
+.slideshow .desc {background:$yellow $containtertexture;}
+#main .slideshow h1.welcome {
+@include gradientbutton($green_tint_2, $green);
+border-radius: 0 0 $corner 0;
+color:white;
+}
+.slideshow .views-field-field-slide-destination-link-url {
+@include gradientbutton($green_tint_2, $green);
+border-radius: $corner 0 0 $corner;
+color:black;
+box-shadow:none;
+padding: 7px 5px 7px 10px;
+margin-bottom:5px;
+position: absolute;
+right: 0;
+text-align: left;
+top: 84%;
+width: 45%;
+z-index: 2;}
+.slideshow a.learn:link,
+.slideshow a.learn:visited{
+border-radius: 0 0 0 0;
+background: none;
+    border:none;
+	border-bottom: 1px dotted black;
+    box-shadow: none;
+    font-size: 14px;
+padding:0;
+	position: relative;
+	right: 0;
+	text-align: left;
+	top: 0;
+	width: auto;
+	z-index: 2;
+	display:inline-block;
+	color:black;
+}
+	.slideshow a.learn:hover{
+border-bottom: 1px solid white;
+color:white;}
+/*Ingredient of the day*/
+.view-display-id-panel_pane_2 .views-field-field-image-fid {
+    float: right;
+    margin: 11px 0 11px 10px;
+    width: 200px;
+}
+.view-display-id-panel_pane_2 .views-field-phpcode-1{
+padding-top:5px;
+display: inline-block;
+}
+.view-display-id-panel_pane_2 .views-field-field-stage-nid{
+margin:0;
+display: inline-block;
+}
+.view-display-id-panel_pane_2 .views-field-phpcode{
+padding-bottom:5px;
+}
+.panel-pane.pane-views-panes.pane-featured-content-panel-pane-2.hp-block .field-content a.imagecache.imagecache-thumb-medium.imagecache-linked.imagecache-thumb-medium_linked img.imagecache.imagecache-thumb-medium {
+    margin-left: 0;
+}
+#main .pane-featured-content-panel-pane-2.hp-block h3 {
+border-right: 2px solid $green;
+    margin-right: 5px;
+    padding: 0 10px 0 5px;
+}
+
+
+/*sidebars*/
+/*sidebar right blocks*/
+#sidebar-right .block{
+@include corner-lift;
+border-radius: $corner;
+}
+#sidebar-right{
+position:relative;
+z-index:1;
+}
+.greystripe_bg, .greenstripe_bg, .sidebar .block, .new-bricks .address-contact {
+background:$neutral_tint_2 $containtertexture;
+@include corner-lift;
+border-radius: $corner;
+}
+#footer-inline-region .block-inner{
+background:none;
+box-shadow:none;
+}
+.sidebar .block .content, .panel_show_bg .pane-content, .view_show_bg .view .view-content {
+    background: white;
+    border-radius: $corner;
+    padding: 5px;
+}
+.sidebar ul.menu li a:link, .sidebar ul.menu li a:visited{
+    background:$neutral_tint_3 $containtertexture;
+    border-radius: $corner;}
+.sidebar ul.menu li a:hover, .sidebar ul.menu li a:focus, .sidebar ul.menu li a:active {
+background:$yellow $containtertexture;
+}
+#page .bookpromo {
+    background: $yellow $containtertexture;
+	@include corner-lift;
+    border-radius: $corner;
+    margin-top: 1.5em;
+    padding: 1em;
+}
+/*main pages*/
+#main-content{
+position:relative;
+z-index:1;}
+#main-content .node {
+@include corner-lift;
+background-color:white;
+border-radius: $corner;}
+#main-content .node-inner{
+padding:1px;
+margin:0;
+}
+#main{
+position:relative;
+z-index:1;}
+#main-content .content {
+    border-bottom: none;
+    margin: 0 0 1em 0;
+    padding: 0 0 1em 0;
+}
+.not-front #main h1 {
+    border-bottom: none;
+    color: #434343;
+	@include corner-lift;
+	background-color:white;
+	border-radius: $corner;
+    font-size: 1.35em;
+    letter-spacing: 0;
+    margin: 0 0 1em 0;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+/*nav*/
+.sf-menu li li a, .sf-menu li li a {
+    background: $green_tint_2;}
+.sf-menu li a:hover, .sf-menu li:hover, .sf-menu li.sfHover, .sf-menu li a:focus, .sf-menu li a.active {
+    background: $green_tint_2;
+	border-top-left-radius: $corner;
+	border-top-right-radius: $corner;
+	}
+#headwrap {border-bottom:5px solid $green_tint_2;}
+.sf-menu li a.menu-1338 {
+	background: url("/sites/all/themes/transition2/images/home.png") no-repeat scroll center center $green_tint_2;
+    display: block;
+    text-indent: -9000px;
+    width: 22px;}
+
+
+	
+/*why what how where*/
+#sidebar-right {
+margin-top:0px;
+}
+#sidebar-right #block-block-59 {
+box-shadow:none;
+background:transparent;
+transform:none;
+padding:0 !important;
+margin:10px 0 0 0;
+}
+#sidebar-right #block-block-60{
+margin-top:14px;
+}
+
+@mixin intro_item{
+display: block;
+height: 50px;
+width: 100%;
+background:url(images/wwhw.png) no-repeat;
+transition: all 0.2s linear 0s;
+}
+#block-block-59 .last{
+height: 59px;
+}
+#block-block-59 h2{ @include hidden}
+#block-block-59 .intro_item span{ @include hidden}
+
+#block-block-59 .what a:link{
+@include intro_item;
+background-position:0 -50px;
+}
+#block-block-59 .what a:hover{
+background:url(images/wwhwa_w.png) no-repeat 0 0;
+background-position:0 -50px;
+}
+#block-block-59 .why a:link{
+@include intro_item;
+background-position:0 0;
+}
+#block-block-59 .why a:hover{
+background:url(images/wwhwa_w.png) no-repeat;
+background-position:0 0px;
+}
+#block-block-59 .how a:link{
+@include intro_item;
+background-position:0 -100px;
+}
+#block-block-59 .how a:hover{
+background:url(images/wwhwa_w.png) no-repeat;
+background-position:0 -100px;}
+
+#block-block-59 .how ul li a:link{
+height: 25px;
+background:url(images/wwhw.png) no-repeat;
+background-position:0 -150px;}
+#block-block-59 .how ul li a:hover{
+background:url(images/wwhwa_w.png) no-repeat;
+background-position:0 -150px;}
+#block-block-59 .how ul li a span{
+color: $turquoise;
+    font-weight: normal;
+    padding-left: 8px;
+    padding-top: 0;
+    position: relative;
+    top: 1px;
+}
+#block-block-59 .where a:link{
+@include intro_item;
+background:url(images/wwhw_w.png) no-repeat;
+background-position:0 -175px;
+}
+
+#block-block-59 .where a:hover{
+background:url(images/wwhw_wa.png) no-repeat;
+background-position:0 -175px;}
+
+#block-block-59 .where a.last{
+height: 60px;
+}
+
+#block-block-59 ul{
+background:url(images/confused.png) no-repeat top left;
+border:none;
+margin:0;
+padding-top:100px;
+}
+
+#block-block-59 ul ul{
+background:none;
+padding-top:0;}
+#block-block-59 ul li {
+    border: none;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;}
+	
+
+#sidebar-right #block-block-59:before,
+#sidebar-right #block-block-59:after{
+box-shadow:none;
+transform:none;
+left:0px;}
+#sidebar-right #block-block-59 .content{
+box-shadow:none;
+background:transparent;
+transform:none;
+}
+
+/*add monsters*/
+
+.panel-pane.pane-views-panes.pane-featured-content-panel-pane-2.hp-block{
+background: $green_tint_2 url(images/ingredient_carrot.png) no-repeat;
+background-position:right bottom;
+padding-bottom:40px;
+background-repeat:none;
+}
+
+#footer-message { 
+    background: url(images/peeking.png) no-repeat 400px -68px #868680;}
+
+/*buy the book*/
+.buybook-container a {
+	    border: 2px solid #FFFFFF;
+	    border-radius: 30px;
+	    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+	    color: #FFFFFF;
+	    display: block;
+	    font: bold 1.1em Arial,Sans-serif;
+	    margin: 0;
+	    padding: 10px;
+	    text-align: center;
+	    transition: all 0.2s linear 0s;
+}
+.buybook-container a.book {
+	    background-color: $yellow;
+	    background-image: -moz-linear-gradient(center top , $neutral, $neutral_tint_1);
+	    color: black;
+}
+.buybook-container a.book:hover {
+    background-color: $red;
+    background-image: -moz-linear-gradient(center top , $yellow, $yellow_tint_1);
+    color: black;
+}
+
+/*@import "v1";*/
+/*@import "v2";*/

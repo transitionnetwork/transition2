@@ -1,0 +1,20 @@
+body.front, body.not-front{
+background: $green_tint_4 $bodytexture;
+background-attachment:fixed;}
+
+#body-container{
+background: $turquoise_tint_4 $containtertexture;}
+
+.panel-pane.pane-views-panes.pane-featured-content-panel-pane-2.hp-block{
+background:$green_tint_4;}
+.slideshow .desc {background:$yellow_tint_2 $containtertexture;}
+#footer-message{
+border-radius:$corner $corner 0 0;
+}
+.sf-menu li a:hover, .sf-menu li:hover, .sf-menu li.sfHover, .sf-menu li a:focus, .sf-menu li a.active {
+    border-top-left-radius: $corner;
+    border-top-right-radius: $corner;}
+
+#top-links {
+	    border-bottom-left-radius: $corner;
+	    border-bottom-right-radius: $corner;}

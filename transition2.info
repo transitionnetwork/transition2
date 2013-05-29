@@ -1,12 +1,13 @@
 name = Transition2
 description = Transition Network Theme 2 - XHTML/CSS/ with a sprinkle of sparkly 960gs 
-version = 2.4
+version = 2.5
 core = 6.x
 engine = phptemplate
 
 stylesheets[all][] = css/960.css
 stylesheets[all][] = css/fonts/stylesheet.css
 stylesheets[all][] = transition2.css
+stylesheets[all][] = stylesheets/screen.css
 stylesheets[print][] = css/print.css
 
 scripts[] = js/hoverIntent.js
