@@ -1,6 +1,6 @@
 name = Transition2
 description = Transition Network Theme 2 - XHTML/CSS/ with a sprinkle of sparkly 960gs 
-version = 2.5
+version = 2.6
 core = 6.x
 engine = phptemplate
 
