@@ -489,24 +489,22 @@ height: 59px;
 	margin:0;
 	padding-top:100px;
 	
-	.what {
-		a:link{
-			@include intro_item;
-			background-position:0 -50px;
-			}
-			a:hover{
-			background:url(images/wwhwa_w.png) no-repeat 0 0;
-			background-position:0 -50px;
-			}
-		}
 	.why{
 		a:link{
 			@include intro_item;
 			background-position:0 0;
 			}
 		a:hover{
-			background:url(images/wwhwa_w.png) no-repeat;
 			background-position:0 0px;
+			}
+		}
+	.what {
+		a:link{
+			@include intro_item;
+			background-position:0 -50px;
+			}
+			a:hover{
+			background-position:0 -50px;
 			}
 		}
 	.how {
