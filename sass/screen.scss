@@ -360,6 +360,12 @@ border-right: 2px solid $green;
     margin-right: 5px;
     padding: 0 10px 0 5px;
 }
+.panel-pane.pane-views-panes.pane-featured-content-panel-pane-2.hp-block{
+background: $green_tint_2 url(images/ingredient_carrot.png) no-repeat;
+background-position:right bottom;
+padding-bottom:40px;
+background-repeat:none;
+}
 
 
 /*sidebars*/
@@ -466,84 +472,98 @@ margin-top:14px;
 @mixin intro_item{
 display: block;
 height: 50px;
-width: 100%;
-background:url(images/wwhw.png) no-repeat;
-transition: all 0.2s linear 0s;
+width: auto;
+background:url(images/wwhw_sprites.png) no-repeat;
+transition: all 0s linear 0s;
 }
-#block-block-59 .last{
+#intronav .last{
 height: 59px;
 }
 #block-block-59 h2{ @include hidden}
 #block-block-59 .intro_item span{ @include hidden}
 
-#block-block-59 .what a:link{
-@include intro_item;
-background-position:0 -50px;
+#block-block-59 #intronav{
+	background:url(images/confused.png) no-repeat top left;
+	border:none;
+	margin:0;
+	padding-top:100px;
+	
+	.what {
+		a:link{
+			@include intro_item;
+			background-position:0 -50px;
+			}
+			a:hover{
+			background:url(images/wwhwa_w.png) no-repeat 0 0;
+			background-position:0 -50px;
+			}
+		}
+	.why{
+		a:link{
+			@include intro_item;
+			background-position:0 0;
+			}
+		a:hover{
+			background:url(images/wwhwa_w.png) no-repeat;
+			background-position:0 0px;
+			}
+		}
+	.how {
+		a:link{
+		@include intro_item;
+		background-position:0 -100px;
+		}
+		a:hover{
+		background-position:0 -560px;
+		}
+		ul li {
+			a:link{
+			height: 25px;
+			background-position:0 -150px;
+			}
+			a:hover{
+			background-position:0 -610px;
+			}
+			a span{
+			color: $turquoise;
+    		font-weight: normal;
+    		padding-left: 8px;
+    		padding-top: 0;
+    		position: relative;
+    		top: 1px;
+			}
+		}
+	}
+	.where {
+		a:link{
+		@include intro_item;
+		background-position:0 -279px;
+		}
+		a:hover{
+		background-position:0 -739px;
+		}
+		a.last{
+		height: 60px;
+		}
+	}
+	ul{
+	border: none;
+	
+		ul{
+		background:none;
+		padding-top:0;
+		border: none;
+		
+		}
+		
+	}
+	li {
+	border: none;
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+	}
 }
-#block-block-59 .what a:hover{
-background:url(images/wwhwa_w.png) no-repeat 0 0;
-background-position:0 -50px;
-}
-#block-block-59 .why a:link{
-@include intro_item;
-background-position:0 0;
-}
-#block-block-59 .why a:hover{
-background:url(images/wwhwa_w.png) no-repeat;
-background-position:0 0px;
-}
-#block-block-59 .how a:link{
-@include intro_item;
-background-position:0 -100px;
-}
-#block-block-59 .how a:hover{
-background:url(images/wwhwa_w.png) no-repeat;
-background-position:0 -100px;}
-
-#block-block-59 .how ul li a:link{
-height: 25px;
-background:url(images/wwhw.png) no-repeat;
-background-position:0 -150px;}
-#block-block-59 .how ul li a:hover{
-background:url(images/wwhwa_w.png) no-repeat;
-background-position:0 -150px;}
-#block-block-59 .how ul li a span{
-color: $turquoise;
-    font-weight: normal;
-    padding-left: 8px;
-    padding-top: 0;
-    position: relative;
-    top: 1px;
-}
-#block-block-59 .where a:link{
-@include intro_item;
-background:url(images/wwhw_w.png) no-repeat;
-background-position:0 -175px;
-}
-
-#block-block-59 .where a:hover{
-background:url(images/wwhw_wa.png) no-repeat;
-background-position:0 -175px;}
-
-#block-block-59 .where a.last{
-height: 60px;
-}
-
-#block-block-59 ul{
-background:url(images/confused.png) no-repeat top left;
-border:none;
-margin:0;
-padding-top:100px;
-}
-
-#block-block-59 ul ul{
-background:none;
-padding-top:0;}
-#block-block-59 ul li {
-    border: none;
-    list-style: none outside none;
-    margin: 0;
-    padding: 0;}
 	
 
 #sidebar-right #block-block-59:before,
@@ -559,12 +579,7 @@ transform:none;
 
 /*add monsters*/
 
-.panel-pane.pane-views-panes.pane-featured-content-panel-pane-2.hp-block{
-background: $green_tint_2 url(images/ingredient_carrot.png) no-repeat;
-background-position:right bottom;
-padding-bottom:40px;
-background-repeat:none;
-}
+
 
 #footer-message { 
     background: url(images/peeking.png) no-repeat 400px -68px #868680;}

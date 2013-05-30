@@ -693,3 +693,14 @@ function transition2_menu_item_link($link) {
   }
   return l($link['title'], $link['href'], $link['localized_options']);
 }
+
+/**
+ * Adds jquery for the What Why How Where menu
+ */
+function transition2_preprocess_page(&$vars) {
+	jquery_ui_add('ui.accordion');
+	$path_js = drupal_get_path('theme', 'transition2').'/js/';
+  	drupal_add_js($path_js.'wwhw_menu.js');
+
+}
+

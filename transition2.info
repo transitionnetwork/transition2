@@ -27,3 +27,5 @@ regions[footer_usermenu_inline] = Footer User Sitemap Menus Inline
 regions[footer_banner] = Footer Banner Badges
 regions[closure_region] = Closure
 
+dependencies[] = jquery_ui
+
