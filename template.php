@@ -704,6 +704,9 @@ function transition2_preprocess_page(&$vars) {
 
 }
 
+/**
+ * Adds caption css class to featured images
+ */
 function transition2_imagecache_formatter_featured_image_default($element) {
   // Inside a view $element may contain NULL data. In that case, just return.
   if (empty($element['#item']['fid'])) {

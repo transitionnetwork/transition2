@@ -1021,13 +1021,13 @@ div.help {
   color: black;
   display: block;
   margin: 0;
-  padding: 0 5px 5px 5px;
+  padding: 5px;
   border-left: 1px solid #d2cdb5;
   border-right: 1px solid #d2cdb5;
   border-bottom: 1px solid #d2cdb5;
   border-top: none;
   position: relative;
-  top: -6px;
+  line-height: 1em;
   width: 100%;
   text-align: center;
 }
@@ -1251,13 +1251,79 @@ a.bigbutton.neutral {
   background-image: -moz-linear-gradient(center top, #d2cdb5, #dad6c3);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000321}}
+a.bigbutton.neutral-tint-1 {
+  background-color: #dad6c3;
+  background-image: -moz-linear-gradient(center top, #dad6c3, #e8e6db);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000325}}
+a.bigbutton.neutral-tint-2 {
+  background-color: #e8e6db;
+  background-image: -moz-linear-gradient(center top, #e8e6db, #f0eee7);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000329}}
+a.bigbutton.neutraltint-3 {
+  background-color: #f0eee7;
+  background-image: -moz-linear-gradient(center top, #f0eee7, #f7f6f3);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000333}}
 a.bigbutton.turquoise {
   background-color: #008b98;
   background-image: -moz-linear-gradient(center top, #008b98, #5a9fab);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000337}}
+a.bigbutton.turquoise-tint-1 {
+  background-color: #5a9fab;
+  background-image: -moz-linear-gradient(center top, #5a9fab, #8bb5bf);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000341}}
+a.bigbutton.turquoise-tint-2 {
+  background-color: #8bb5bf;
+  background-image: -moz-linear-gradient(center top, #8bb5bf, #b5cdd4);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000345}}
+a.bigbutton.turquoise-tint-3 {
+  background-color: #b5cdd4;
+  background-image: -moz-linear-gradient(center top, #b5cdd4, #dbe6e9);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000349}}
+a.bigbutton.green {
+  background-color: #98b757;
+  background-image: -moz-linear-gradient(center top, #98b757, #afc47a);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000353}}
+a.bigbutton.green-tint-1 {
+  background-color: #afc47a;
+  background-image: -moz-linear-gradient(center top, #afc47a, #c4d39d);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000357}}
+a.bigbutton.green-tint-2 {
+  background-color: #c4d39d;
+  background-image: -moz-linear-gradient(center top, #c4d39d, #d8e2bf);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000361}}
+a.bigbutton.green-tint-3 {
+  background-color: #d8e2bf;
+  background-image: -moz-linear-gradient(center top, #d8e2bf, #ecf0e0);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000365}}
+a.bigbutton.red {
+  background-color: #d0232a;
+  background-image: -moz-linear-gradient(center top, #d0232a, #d95648);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000370}}
 a.bigbutton:hover {
   background-color: #ffdd60;
   background-image: -moz-linear-gradient(center top, #ffdd60, #ffe386);
@@ -1350,4 +1416,13 @@ body.not-front.tn_culture #headwrap {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003682}}
 body.not-front.tn_culture .sf-menu li a.menu-1338 {
   background: url("/sites/all/themes/transition2/images/home.png") no-repeat scroll center center #f1f1d8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003684}}
+body.not-front.tn_culture .sidebar ul.menu li a:link, body.not-front.tn_culture .sidebar ul.menu li a:visited {
+  background: url("/sites/all/themes/transition2/stylesheets/images/noisy-texture-200x200.png") repeat scroll 0 0 #fafaf2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003686}}
+body.not-front.tn_culture .sidebar ul.menu li a:hover, body.not-front.tn_culture .sidebar ul.menu li a:focus, body.not-front.tn_culture .sidebar ul.menu li a:active {
+  background: url("/sites/all/themes/transition2/stylesheets/images/noisy-texture-200x200.png") repeat scroll 0 0 #fd9500;
+  color: white;
 }

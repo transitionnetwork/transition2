@@ -462,13 +462,13 @@ background-color:$neutral_tint_3;
 color:black;
 display:block;
 margin:0;
-padding: 0 5px 5px 5px;
+padding: 5px;
 border-left: 1px solid $neutral;
 border-right: 1px solid $neutral;
 border-bottom: 1px solid $neutral;
 border-top:none;
 position: relative;
-top: -6px;
+line-height:1em;
 width: 100%;
 text-align: center;
 }
@@ -681,4 +681,9 @@ body.not-front.tn_culture{
 		#headwrap {border-bottom:5px solid $tn_light_tint_2}
 		.sf-menu li a.menu-1338 {
 			background: url("/sites/all/themes/transition2/images/home.png") no-repeat scroll center center $tn_light_tint_2}
+		.sidebar ul.menu li a:link, .sidebar ul.menu li a:visited {
+			    background: url("/sites/all/themes/transition2/stylesheets/images/noisy-texture-200x200.png") repeat scroll 0 0 $tn_light_tint_4;}
+		.sidebar ul.menu li a:hover, .sidebar ul.menu li a:focus, .sidebar ul.menu li a:active {
+				    background: url("/sites/all/themes/transition2/stylesheets/images/noisy-texture-200x200.png") repeat scroll 0 0 $tn_orange;
+				color:white;}
 }
