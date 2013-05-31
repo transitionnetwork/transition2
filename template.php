@@ -704,3 +704,22 @@ function transition2_preprocess_page(&$vars) {
 
 }
 
+function transition2_imagecache_formatter_featured_image_default($element) {
+  // Inside a view $element may contain NULL data. In that case, just return.
+  if (empty($element['#item']['fid'])) {
+    return '';
+  }
+
+  // Extract the preset name from the formatter name.
+  $presetname = substr($element['#formatter'], 0, strrpos($element['#formatter'], '_'));
+  $style = 'linked';
+  $style = 'default';
+
+  $item = $element['#item'];
+  $item['data']['alt'] = isset($item['data']['alt']) ? $item['data']['alt'] : '';
+  $item['data']['title'] = isset($item['data']['title']) ? $item['data']['title'] : NULL;
+
+  $class = "imagecache imagecache-$presetname imagecache-$style imagecache-{$element['#formatter']} caption";
+  return theme('imagecache', $presetname, $item['filepath'], $item['data']['alt'], $item['data']['title'], array('class' => $class));
+}
+

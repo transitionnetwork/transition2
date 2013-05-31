@@ -19,16 +19,8 @@ overflow:hidden;}
 $bodytexture: url(images/noisy-texture-big-200x200.png);
 $containtertexture: url(images/noisy-texture-200x200.png);
 $corner: 2px;
+$boxpad: 10px;
 
-/* V1
-$bodytexture: url(images/noisy-texture-big2-200x200.png);
-$containtertexture: url(images/mooning3.png);
-$corner: 2px;
-
-$bodytexture: url(images/transitioners.png);
-$containtertexture: url(images/subtle_white_feathers.png);
-$corner: 10px;
-*/
 
 
 /*bens first scss*/
@@ -109,15 +101,11 @@ h1#page-title, h2#page-title, .sidebar .block h2, .sidebar .block h3, .panel-pan
         right: 8px;
     }
 }
-#main h2.pane-title {
+.front #main h2.pane-title {
     border-bottom: none;
 	margin:3px;
 	padding:0;
 	font-family: 'ArvoRegular',georgia,times,"Times New Roman",serif;
-	}
-#main h3 {
-	    margin: 0;
-	    padding: 0;
 	}
 .panel-pane p{
 margin:1em;
@@ -127,17 +115,22 @@ padding:0;
 background-color:white;
 border-radius:$corner;
 }
-.panel-pane .panel-pane-inner .pane-content{
-padding:.5em;
-margin:1px;
+.front .panel-pane .panel-pane-inner .pane-content{
+display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 .panel-pane{
+border-radius: $corner;
+}
+.front .panel-pane{
 @include corner-lift;
 background:$neutral_tint_4;
-border-radius: $corner;
 margin-top:1em;
 }
-.panel-panel .inside{
+.panel-panel .inside,
+panels-flexible-row, .inside{
 position:relative;
 z-index:1;
 }
@@ -152,28 +145,33 @@ clear:both;
 width:660px;
 }
 .panel-panel.panel-col-middle{
-margin-top:1em;
+margin-top:$boxpad;
 position:relative;
-top:1em;
+top:$boxpad;
 }
-.panel-pane.pane-views-panes.pane-featured-content-panel-pane-2.hp-block{
-margin:1em 0 1em;
-padding:0;
-background:$green_tint_3 $containtertexture;
-border-radius: $corner;
-box-shadow: none;
-}
-.panel-pane-inner{
-margin:.5em;
-padding:.5em;
+	
+.front .panel-pane-inner{
+margin:0;
+padding: $boxpad;
 }
 .panel-pane .pane-content{
 background: white;
 border-radius: $corner;
 height:100%;
+margin: $boxpad;
 }
 .hp-block {
     min-height: 0px;
+}
+.panel-col-last .panel-pane{
+margin-right:$boxpad;
+}
+.center-wrapper .panel-col-last .panel-pane{
+margin-right:0;
+}
+#main .pane-content h3{
+margin:0;
+padding:0 5px 0 2px;
 }
 /*footer*/
 #footer-inline-region .block{
@@ -184,7 +182,7 @@ border-radius: $corner;
 #footer-inline-region{
 position:relative;
 z-index:1;
-padding:0 10px;
+padding:0 $boxpad;
 margin:1em 0;
 border:none;
 }
@@ -342,7 +340,7 @@ color:white;}
     width: 200px;
 }
 .view-display-id-panel_pane_2 .views-field-phpcode-1{
-padding-top:5px;
+padding:5px 0 0 5px;
 display: inline-block;
 }
 .view-display-id-panel_pane_2 .views-field-field-stage-nid{
@@ -352,19 +350,23 @@ display: inline-block;
 .view-display-id-panel_pane_2 .views-field-phpcode{
 padding-bottom:5px;
 }
-.panel-pane.pane-views-panes.pane-featured-content-panel-pane-2.hp-block .field-content a.imagecache.imagecache-thumb-medium.imagecache-linked.imagecache-thumb-medium_linked img.imagecache.imagecache-thumb-medium {
-    margin-left: 0;
-}
-#main .pane-featured-content-panel-pane-2.hp-block h3 {
+.views-field-phpcode-1 h3 {
 border-right: 2px solid $green;
     margin-right: 5px;
     padding: 0 10px 0 5px;
 }
-.panel-pane.pane-views-panes.pane-featured-content-panel-pane-2.hp-block{
+#main .panel-pane.carrot{
 background: $green_tint_2 url(images/ingredient_carrot.png) no-repeat;
 background-position:right bottom;
-padding-bottom:40px;
 background-repeat:none;
+box-shadow:none;
+border-radius:$corner;
+margin:0;
+padding:0 0 40px 0;
+}
+
+#main .panel-pane.carrot .field-content a.imagecache.imagecache-thumb-medium.imagecache-linked.imagecache-thumb-medium_linked img.imagecache.imagecache-thumb-medium {
+    margin-left: 0;
 }
 
 
@@ -382,7 +384,9 @@ z-index:1;
 background:$neutral_tint_2 $containtertexture;
 @include corner-lift;
 border-radius: $corner;
+padding: 0;
 }
+
 #footer-inline-region .block-inner{
 background:none;
 box-shadow:none;
@@ -398,44 +402,75 @@ box-shadow:none;
 .sidebar ul.menu li a:hover, .sidebar ul.menu li a:focus, .sidebar ul.menu li a:active {
 background:$yellow $containtertexture;
 }
-#page .bookpromo {
-    background: $yellow $containtertexture;
-	@include corner-lift;
-    border-radius: $corner;
-    margin-top: 1.5em;
-    padding: 1em;
-}
+
 /*main pages*/
-#main-content{
+.not-front #page{
 position:relative;
 z-index:1;}
-#main-content .node {
+.not-front #main{
 @include corner-lift;
 background-color:white;
-border-radius: $corner;}
-#main-content .node-inner{
-padding:1px;
-margin:0;
+border-radius: $corner;
+padding:0;}
+.not-front.node-type-panel #page{
+position:static;
 }
-#main{
-position:relative;
-z-index:1;}
+.not-front.node-type-panel #main{
+background-color:transparent;
+border-radius: $corner;
+padding:0;}
+.breadcrumb {
+    border-bottom: none;}
+#main h1 {
+	    padding:0 5px;}
+#sidebar-right, #sidebar-left {
+   padding-top: 0;
+}
+#sidebar-right .block-1{
+margin-top:0;
+}
+div.help {
+    margin: 1em;}
+#main ul, #main ol {
+    margin: 10px 20px;
+    padding: 0 20px;
+	}
 #main-content .content {
-    border-bottom: none;
-    margin: 0 0 1em 0;
-    padding: 0 0 1em 0;
+    border-bottom: none}
+
+/*images and captions*/
+#main-content .content img {
+    background: none repeat scroll 0 0 $neutral_tint_3;
+    border: 1px solid $neutral;
+    padding: 5px;
 }
-.not-front #main h1 {
-    border-bottom: none;
-    color: #434343;
-	@include corner-lift;
-	background-color:white;
-	border-radius: $corner;
-    font-size: 1.35em;
-    letter-spacing: 0;
-    margin: 0 0 1em 0;
-    padding-bottom: 10px;
-    padding-left: 5px;
+#main-content .content img.caption {
+    background: none repeat scroll 0 0 $neutral_tint_3;
+    border-left: 1px solid $neutral;
+    border-right: 1px solid $neutral;
+    border-top: 1px solid $neutral;
+	border-bottom:none;
+    padding: 5px 5px 0 5px;
+}
+.image-caption{
+background-color:$neutral_tint_3;
+color:black;
+display:block;
+margin:0;
+padding: 0 5px 5px 5px;
+border-left: 1px solid $neutral;
+border-right: 1px solid $neutral;
+border-bottom: 1px solid $neutral;
+border-top:none;
+position: relative;
+top: -6px;
+width: 100%;
+text-align: center;
+}
+/*featured image*/
+.field-field-featured-image{
+float:right;
+margin:0 1em 1em 0;
 }
 /*nav*/
 .sf-menu li li a, .sf-menu li li a {
@@ -463,10 +498,7 @@ box-shadow:none;
 background:transparent;
 transform:none;
 padding:0 !important;
-margin:10px 0 0 0;
-}
-#sidebar-right #block-block-60{
-margin-top:14px;
+margin:10px 0 22px 0;
 }
 
 @mixin intro_item{
@@ -583,29 +615,16 @@ transform:none;
 #footer-message { 
     background: url(images/peeking.png) no-repeat 400px -68px #868680;}
 
-/*buy the book*/
-.buybook-container a {
-	    border: 2px solid #FFFFFF;
-	    border-radius: 30px;
-	    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-	    color: #FFFFFF;
-	    display: block;
-	    font: bold 1.1em Arial,Sans-serif;
-	    margin: 0;
-	    padding: 10px;
-	    text-align: center;
-	    transition: all 0.2s linear 0s;
-}
-.buybook-container a.book {
-	    background-color: $yellow;
-	    background-image: -moz-linear-gradient(center top , $neutral, $neutral_tint_1);
-	    color: black;
-}
-.buybook-container a.book:hover {
-    background-color: $red;
-    background-image: -moz-linear-gradient(center top , $yellow, $yellow_tint_1);
-    color: black;
-}
 
+@import "buttons";
 /*@import "v1";*/
 /*@import "v2";*/
+
+/*profiles*/
+.view-people-maps .view-content {
+    margin: 0;
+    padding: 0;
+}
+.panels-flexible-region-inside-last {
+    padding-right: $boxpad;
+}

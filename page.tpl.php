@@ -53,8 +53,9 @@
 
         <div id="page-container">
         <div id="page" class="container-12 clear-block">
+		<div id="breadcrumb" class="clear-block"><?php print $breadcrumb; ?></div>
         <div id="main" class="<?php print $classes['main']; ?>">
-        <div id="breadcrumb" class="clear-block"><?php print $breadcrumb; ?></div>
+        
         <?php print $messages; ?>
         <?php if ($content_top): ?>
         <div id="content-top-region" class="clear-block"><?php print $content_top; ?></div>
