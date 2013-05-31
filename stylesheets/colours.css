@@ -1,180 +1,96 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\0000351}}
-.panel-pane.turquoise {
-  background: #008b98;
-}
+/*
+Syntax error: Undefined variable: "$containtertexture".
+        on line 175 of /Users/ben/Sites/tndev/sites/all/themes/transition2/sass/colours.scss
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\0000354}}
-.panel-pane.turquoise-tint-1 {
-  background: #5a9fab;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\0000357}}
-.panel-pane.turquoise-tint-2 {
-  background: #8bb5bf;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\0000360}}
-.panel-pane.turquoise-tint-3 {
-  background: #b5cdd4;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\0000363}}
-.panel-pane.turquoise-tint-4 {
-  background: #dbe6e9;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\0000366}}
-.panel-pane.yellow {
-  background: #ffdd60;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\0000369}}
-.panel-pane.yellow-tint-1 {
-  background: #ffe386;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\0000372}}
-.panel-pane.yellow-tint-2 {
-  background: #ffeaa8;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\0000375}}
-.panel-pane.yellow-tint-3 {
-  background: #fff1c7;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\0000378}}
-.panel-pane.yellow-tint-4 {
-  background: #fff8e4;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\0000381}}
-.panel-pane.neutral {
-  background: #d2cdb5;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\0000384}}
-.panel-pane.neutral-tint-1 {
-  background: #dad6c3;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\0000387}}
-.panel-pane.neutral-tint-2 {
-  background: #e8e6db;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\0000390}}
-.panel-pane.neutral-tint-3 {
-  background: #f0eee7;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\0000393}}
-.panel-pane.neutral-tint-4 {
-  background: #f7f6f3;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\0000396}}
-.panel-pane.green {
-  background: #98b757;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\0000399}}
-.panel-pane.green-tint-1 {
-  background: #afc47a;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003102}}
-.panel-pane.green-tint-2 {
-  background: #c4d39d;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003105}}
-.panel-pane.green-tint-3 {
-  background: #d8e2bf;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003108}}
-.panel-pane.green-tint-4 {
-  background: #ecf0e0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003112}}
-.front .panel-pane.turquoise {
-  background: #008b98;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003115}}
-.front .panel-pane.turquoise-tint-1 {
-  background: #5a9fab;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003118}}
-.front .panel-pane.turquoise-tint-2 {
-  background: #8bb5bf;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003121}}
-.front .panel-pane.turquoise-tint-3 {
-  background: #b5cdd4;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003124}}
-.front .panel-pane.turquoise-tint-4 {
-  background: #dbe6e9;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003127}}
-.front .panel-pane.yellow {
-  background: #ffdd60;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003130}}
-.front .panel-pane.yellow-tint-1 {
-  background: #ffe386;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003133}}
-.front .panel-pane.yellow-tint-2 {
-  background: #ffeaa8;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003136}}
-.front .panel-pane.yellow-tint-3 {
-  background: #fff1c7;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003139}}
-.front .panel-pane.yellow-tint-4 {
-  background: #fff8e4;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003142}}
-.front .panel-pane.neutral {
-  background: #d2cdb5;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003145}}
-.front .panel-pane.neutral-tint-1 {
-  background: #dad6c3;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003148}}
-.front .panel-pane.neutral-tint-2 {
-  background: #e8e6db;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003151}}
-.front .panel-pane.neutral-tint-3 {
-  background: #f0eee7;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003154}}
-.front .panel-pane.neutral-tint-4 {
-  background: #f7f6f3;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003157}}
-.front .panel-pane.green {
-  background: #98b757;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003160}}
-.front .panel-pane.green-tint-1 {
-  background: #afc47a;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003163}}
-.front .panel-pane.green-tint-2 {
-  background: #c4d39d;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003166}}
-.front .panel-pane.green-tint-3 {
-  background: #d8e2bf;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003169}}
-.front .panel-pane.green-tint-4 {
-  background: #ecf0e0;
-}
+Backtrace:
+/Users/ben/Sites/tndev/sites/all/themes/transition2/sass/colours.scss:175
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/script/variable.rb:49:in `_perform'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/script/node.rb:40:in `perform'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/script/list.rb:70:in `_perform'
+org/jruby/RubyArray.java:2339:in `collect'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/script/list.rb:69:in `_perform'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/script/node.rb:40:in `perform'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
+org/jruby/RubyKernel.java:2109:in `send'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+org/jruby/RubyArray.java:2339:in `collect'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/perform.rb:109:in `visit_children'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+org/jruby/RubyKernel.java:2109:in `send'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+org/jruby/RubyArray.java:2339:in `collect'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/perform.rb:109:in `visit_children'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+org/jruby/RubyKernel.java:2109:in `send'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+org/jruby/RubyArray.java:2339:in `collect'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/perform.rb:109:in `visit_children'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+org/jruby/RubyKernel.java:2109:in `send'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/perform.rb:100:in `visit'
+org/jruby/RubyKernel.java:2109:in `send'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/root_node.rb:20:in `render'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/engine.rb:315:in `_render'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/engine.rb:262:in `render'
+file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/compass_patch.rb:60:in `compile'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/compass_patch.rb:59:in `compile'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/compass_patch.rb:58:in `compile'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
+org/jruby/RubyArray.java:1620:in `each'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/compiler.rb:25:in `compile'
+org/jruby/RubyKernel.java:2105:in `send'
+(__FORWARDABLE__):3:in `compile'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/project_watcher.rb:92:in `sass_modified'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/project_watcher.rb:85:in `sass_callback'
+org/jruby/RubyMethod.java:133:in `call'
+org/jruby/RubyProc.java:270:in `call'
+org/jruby/RubyProc.java:220:in `call'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/watch.rb:17:in `run_callback'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/project_watcher.rb:78:in `listen_callback'
+org/jruby/RubyArray.java:1620:in `each'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/project_watcher.rb:77:in `listen_callback'
+org/jruby/RubyArray.java:1620:in `each'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/project_watcher.rb:76:in `listen_callback'
+org/jruby/RubyMethod.java:133:in `call'
+org/jruby/RubyProc.java:270:in `call'
+org/jruby/RubyProc.java:220:in `call'
+/Applications/compass.app/Contents/Resources/lib/ruby/jruby/listen-0.7.3/lib/listen/listener.rb:212:in `on_change'
+/Applications/compass.app/Contents/Resources/lib/ruby/jruby/listen-0.7.3/lib/listen/listener.rb:221:in `initialize_adapter'
+org/jruby/RubyProc.java:270:in `call'
+org/jruby/RubyProc.java:220:in `call'
+/Applications/compass.app/Contents/Resources/lib/ruby/jruby/listen-0.7.3/lib/listen/adapter.rb:198:in `report_changes'
+/Applications/compass.app/Contents/Resources/lib/ruby/jruby/listen-0.7.3/lib/listen/adapter.rb:210:in `poll_changed_dirs'
+/Applications/compass.app/Contents/Resources/lib/ruby/jruby/listen-0.7.3/lib/listen/adapters/darwin.rb:38:in `start'
+org/jruby/RubyProc.java:270:in `call'
+org/jruby/RubyProc.java:224:in `call'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined variable: \"$containtertexture\".\A         on line 175 of /Users/ben/Sites/tndev/sites/all/themes/transition2/sass/colours.scss"; }

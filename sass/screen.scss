@@ -3,7 +3,7 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "colours";
+
 
 @mixin hidden 
 {position:absolute;
@@ -20,7 +20,7 @@ $bodytexture: url(images/noisy-texture-big-200x200.png);
 $containtertexture: url(images/noisy-texture-200x200.png);
 $corner: 2px;
 $boxpad: 10px;
-
+@import "colours";
 
 
 /*bens first scss*/
@@ -123,6 +123,8 @@ display: inline-block;
 }
 .panel-pane{
 border-radius: $corner;
+    display: inline-block;
+    width: 100%;
 }
 .front .panel-pane{
 @include corner-lift;
