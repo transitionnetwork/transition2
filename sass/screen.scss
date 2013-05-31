@@ -279,7 +279,7 @@ margin-left: 0px;
 #main-content .slideshow img{
 border-radius: $corner;
 }
-.pane-slideshows-panel-pane-1{
+.front .pane-slideshows-panel-pane-1{
 background:none;
 box-shadow:none;
 margin:0;
@@ -454,6 +454,9 @@ div.help {
 	border-bottom:none;
     padding: 5px 5px 0 5px;
 }
+.image-caption-container{
+line-height:0px;
+}
 .image-caption{
 background-color:$neutral_tint_3;
 color:black;
@@ -500,7 +503,7 @@ box-shadow:none;
 background:transparent;
 transform:none;
 padding:0 !important;
-margin:10px 0 22px 0;
+margin:10px 0 15px 0;
 }
 
 @mixin intro_item{
@@ -629,4 +632,53 @@ transform:none;
 }
 .panels-flexible-region-inside-last {
     padding-right: $boxpad;
+}
+/*robs blog*/
+$tn_dark: #b5b47d;
+$tn_light: #e8e7be;
+$tn_light_tint_1:#EDECCB;
+$tn_light_tint_2:#F1F1D8;
+$tn_light_tint_3:#F6F5E5;
+$tn_light_tint_4:#fafaf2;
+$tn_orange: #fd9500;
+body.not-front.tn_culture{
+	background: $tn_dark $bodytexture;
+	background-attachment:fixed;
+
+	#body-container{
+	background: $tn_light $containtertexture;
+	}
+	#block-block-81{text-align:right;}
+	#main h1 {
+	    border-bottom: 2px solid $tn_orange;}
+	greystripe_bg, .greenstripe_bg, .sidebar .block, .new-bricks .address-contact {
+		    background: url("images/noisy-texture-200x200.png") $tn_light_tint_2;}
+	.sidebar .block .content, .panel_show_bg .pane-content, .view_show_bg .view .view-content {
+		background: $tn_orange;}
+	.sidebar ul.menu li a:link, .sidebar ul.menu li a:visited, .sidebar ul.menu li a:hover, .sidebar ul.menu li a:focus, .sidebar ul.menu li a:active {
+		border-bottom: 1px solid $tn_orange;}
+	.sidebar ul.menu li.first {
+		border-top: 1px solid $tn_orange;}
+	.submitted {
+		border-bottom: 1px solid $tn_orange;}
+	.node-teaser {
+		border-bottom: 2px solid $tn_orange;
+		}
+	.field.field-type-link.field-field-original-url {
+		background: none repeat scroll 0 0 $tn_light_tint_4;}
+	#main-content .node_read_more a {
+		background: none repeat scroll 0 0 $tn_orange;
+		color:white;}
+	#main-content .node_read_more a:hover {
+		background: none repeat scroll 0 0 $tn_light;
+		color:black;}
+	/*nav*/
+		.sf-menu li li a, .sf-menu li li a {
+		    background: $tn_light_tint_2;}
+		.sf-menu li a:hover, .sf-menu li:hover, .sf-menu li.sfHover, .sf-menu li a:focus, .sf-menu li a.active {
+		    background: $tn_light_tint_2;
+			}
+		#headwrap {border-bottom:5px solid $tn_light_tint_2}
+		.sf-menu li a.menu-1338 {
+			background: url("/sites/all/themes/transition2/images/home.png") no-repeat scroll center center $tn_light_tint_2}
 }
