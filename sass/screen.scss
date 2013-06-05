@@ -108,7 +108,7 @@ h1#page-title, h2#page-title, .sidebar .block h2, .sidebar .block h3, .panel-pan
 	font-family: 'ArvoRegular',georgia,times,"Times New Roman",serif;
 	}
 .panel-pane p{
-margin:3px;
+margin:10px 3px;
 padding:0;
 }
 .panel-pane .view-featured-content {
@@ -165,6 +165,10 @@ background: white;
 border-radius: $corner;
 height:100%;
 margin: $boxpad;
+}
+.panel-pane.pane-node-body .pane-content{
+margin:0;
+padding:0;
 }
 .hp-block {
     min-height: 0px;
