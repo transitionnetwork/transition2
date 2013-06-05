@@ -140,6 +140,10 @@ z-index:1;
 margin-top:0;
 display:block;
 }
+#main.grid-12 .panel-col-last {
+margin-right: $boxpad;
+    width: 224px;
+}
 .panel-display .center-wrapper{
 clear:both;
 }
@@ -437,6 +441,12 @@ div.help {
     margin: 10px 20px;
     padding: 0 20px;
 	}
+#main .sidebar ul {
+	    border-top: 1px solid #FFFFFF;
+	    margin: 10px 8px 8px;
+	    padding: 0;
+	    text-align: left;
+	}
 #main-content .content {
     border-bottom: none}
 
@@ -632,6 +642,14 @@ transform:none;
 }
 .panels-flexible-region-inside-last {
     padding-right: $boxpad;
+}
+/*attachments*/
+.itu-attachments{
+margin:$boxpad;
+
+#attachments{
+margin:0;
+}
 }
 /*robs blog*/
 $tn_dark: #b5b47d;
