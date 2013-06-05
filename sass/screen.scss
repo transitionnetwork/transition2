@@ -523,7 +523,7 @@ box-shadow:none;
 background:transparent;
 transform:none;
 padding:0 !important;
-margin:10px 0 15px 0;
+margin:10px 0 0 0;
 }
 
 @mixin intro_item{
@@ -544,7 +544,7 @@ height: 59px;
 	background: url("images/confused.png") no-repeat scroll 0 -22px transparent;
 	    border: medium none;
 	    margin: 0;
-	    padding-top: 66px;
+	    padding-top: 72px;
 	
 	.why{
 		a:link{
@@ -654,6 +654,9 @@ left:0px;}
 box-shadow:none;
 background:transparent;
 transform:none;
+}
+.front #sidebar-right #block-block-60{
+margin-top:8px;
 }
 
 /*add monsters*/
