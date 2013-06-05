@@ -109,7 +109,7 @@ h1#page-title, h2#page-title, .sidebar .block h2, .sidebar .block h3, .panel-pan
 	}
 .panel-pane p{
 margin:10px 3px;
-padding:0;
+padding:0 10px;
 }
 .panel-pane .view-featured-content {
 background-color:white;
@@ -125,8 +125,9 @@ display: inline-block;
 border-radius: $corner;
     display: inline-block;
     width: 100%;
+margin:5px;
 }
-.front .panel-pane{
+.front .panel-pane, .page-nearby .panel-pane{
 @include corner-lift;
 background:$neutral_tint_4;
 margin-top:1em;
@@ -165,6 +166,7 @@ background: white;
 border-radius: $corner;
 height:100%;
 margin: $boxpad;
+    display: inline-block;
 }
 .panel-pane.pane-node-body .pane-content{
 margin:0;
@@ -426,7 +428,8 @@ padding:0;}
 .panel-pane.transparent .pane-content {
     background: transparent;    display: inline-block;}
 .panel-pane.transparent .pane-content p{
-margin:0;}
+margin:0;
+padding:0;	}
 .panel-pane.transparent .panel-pane-inner{
 margin:0;
 }
