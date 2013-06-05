@@ -541,10 +541,10 @@ height: 59px;
 #block-block-59 .intro_item span{ @include hidden}
 
 #block-block-59 #intronav{
-	background:url(images/confused.png) no-repeat top left;
-	border:none;
-	margin:0;
-	padding-top:105px;
+	background: url("images/confused.png") no-repeat scroll 0 -22px transparent;
+	    border: medium none;
+	    margin: 0;
+	    padding-top: 66px;
 	
 	.why{
 		a:link{
@@ -552,7 +552,7 @@ height: 59px;
 			background-position:0 0;
 			}
 		a:hover{
-			background-position:0 0px;
+			background-position:0 -575px;
 			}
 		}
 	.what {
@@ -561,7 +561,7 @@ height: 59px;
 			background-position:0 -50px;
 			}
 			a:hover{
-			background-position:0 -50px;
+			background-position:0 -625px;
 			}
 		}
 	.how {
@@ -570,15 +570,27 @@ height: 59px;
 		background-position:0 -100px;
 		}
 		a:hover{
-		background-position:0 -560px;
+		background-position:0 -675px;
 		}
 		ul li {
 			a:link{
 			height: 25px;
-			background-position:0 -150px;
+			background-position:0 -175px;
 			}
 			a:hover{
-			background-position:0 -610px;
+			background-position:0 -750px;
+			}
+			a.first:link{
+			background-position:0 -150px;
+			}
+			a.first:hover{
+			background-position:0 -725px;
+			}
+			a.last:link{
+			background-position:0 -200px;
+			}
+			a.last:hover{
+			background-position:0 -775px;
 			}
 			a span{
 			color: $turquoise;
@@ -589,14 +601,25 @@ height: 59px;
     		top: 1px;
 			}
 		}
+		ul {
+		    margin: 0;}
 	}
 	.where {
 		a:link{
 		@include intro_item;
-		background-position:0 -279px;
+		background-position:0 -425px;
 		}
 		a:hover{
-		background-position:0 -739px;
+		background-position:0 -1000px;
+		}
+	}
+	.do {
+		a:link{
+		@include intro_item;
+		background-position:0 -475px;
+		}
+		a:hover{
+		background-position:0 -1050px;
 		}
 		a.last{
 		height: 60px;
