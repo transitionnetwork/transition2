@@ -186,6 +186,21 @@ background:$green_tint_4;
 	.block.yellow-tint-4 {
 	    background: $yellow_tint_4 $containtertexture;
 	}
+	.block.green{
+		background:$green $containtertexture;
+	}
+	.block.green-tint-1{
+	background:$green_tint_1 $containtertexture;
+	}
+	.block.green-tint-2{
+	background:$green_tint_2 $containtertexture;
+	}
+	.block.green-tint-3{
+	background:$green_tint_3 $containtertexture;
+	}
+	.block.green-tint-4{
+	background:$green_tint_4 $containtertexture;
+	}
 	.block.turquoise {
 	    background: $turquoise $containtertexture;
 	}

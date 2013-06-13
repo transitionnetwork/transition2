@@ -387,6 +387,12 @@ padding:0 0 40px 0;
 #main .panel-pane.carrot .field-content a.imagecache.imagecache-thumb-medium.imagecache-linked.imagecache-thumb-medium_linked img.imagecache.imagecache-thumb-medium {
     margin-left: 0;
 }
+#sidebar-right .block.ingredients{
+background: url("images/cooking.png") $green_tint_2;
+background-repeat:no-repeat;
+background-position:bottom right;
+padding:$boxpad $boxpad 140px !important;}
+
 .node-type-profile .panels-flexible-region-inside-first .panel-pane .pane-content {margin: 0;}
 
 /*sidebars*/
