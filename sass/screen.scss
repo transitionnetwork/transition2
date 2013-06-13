@@ -130,7 +130,7 @@ border-radius: $corner;
     display: inline-block;
     width: 100%;
 margin:5px;
-background:white;
+background:$neutral_tint_3;
 }
 .front .panel-pane, .page-nearby .panel-pane{
 @include corner-lift;
