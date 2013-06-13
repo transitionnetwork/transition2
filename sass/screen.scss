@@ -111,6 +111,10 @@ h1#page-title, h2#page-title, .sidebar .block h2, .sidebar .block h3, .panel-pan
 margin:10px 3px;
 padding:0 10px;
 }
+.panel-pane p iframe{
+position:relative;
+left:-5px;
+}
 .panel-pane .view-featured-content {
 background-color:white;
 border-radius:$corner;
@@ -166,7 +170,7 @@ background: white;
 border-radius: $corner;
 height:100%;
 margin: $boxpad;
-    display: inline-block;
+    display: block;
 }
 .panel-pane.pane-node-body .pane-content{
 margin:0;
@@ -185,6 +189,8 @@ margin-right:0;
 margin:0;
 padding:0 5px 0 2px;
 }
+div.panel-pane.pane-node-title {
+    border-radius: $corner;}
 /*footer*/
 #footer-inline-region .block{
 @include corner-lift;
@@ -392,13 +398,17 @@ border-radius: $corner;
 position:relative;
 z-index:1;
 }
-.greystripe_bg, .greenstripe_bg, .sidebar .block, .new-bricks .address-contact {
+.shadowpanel, .greystripe_bg, .greenstripe_bg, .sidebar .block, .new-bricks .address-contact {
 background:$neutral_tint_2 $containtertexture;
 @include corner-lift;
 border-radius: $corner;
 padding: 0;
 }
 
+#page .bookpromo {
+    background: $neutral_tint_2 $containtertexture;
+	padding:$boxpad;
+}
 
 #footer-inline-region .block-inner{
 background:none;
@@ -748,4 +758,59 @@ body.not-front.tn_culture{
 		.sidebar ul.menu li a:hover, .sidebar ul.menu li a:focus, .sidebar ul.menu li a:active {
 				    background: url("/sites/all/themes/transition2/stylesheets/images/noisy-texture-200x200.png") repeat scroll 0 0 $tn_orange;
 				color:white;}
+}
+
+/*Ingredients fixes*/
+.jade_bg {
+    border-radius: $corner;
+}
+#main .jade_bg h2 {
+    border-radius: $corner;
+}
+.blue_bg {
+	border-radius: $corner;
+}
+#main .blue_bg h2 {	
+	border-radius: $corner;
+}
+.gold_bg {
+    border-radius: $corner;
+}
+#main .gold_bg h2 {
+	border-radius: $corner;
+}
+.red_bg {
+    border-radius: $corner;
+}
+#main .red_bg h2 {
+	border-radius: $corner;
+}
+.purple_bg {
+	border-radius: $corner;
+}
+#main .purple_bg h2 {
+	border-radius: $corner;
+}
+.page-ingredients .pane-node-title .pane-content{
+background:none;
+display: inline;
+}
+.page-ingredients .panel-pane.jade_dark,
+.page-ingredients .panel-pane.blue_dark,
+.page-ingredients .panel-pane.gold_dark,
+.page-ingredients .panel-pane.red_dark,
+.page-ingredients .panel-pane.purple_dark{
+margin:0;
+}
+.page-ingredients .panel-panel{
+position:relative;
+z-index:1;
+}
+.page-ingredients .panel-pane.jade_dark .pane-content,
+.page-ingredients .panel-pane.blue_dark .pane-content,
+.page-ingredients .panel-pane.gold_dark .pane-content,
+.page-ingredients .panel-pane.red_dark .pane-content,
+.page-ingredients .panel-pane.purple_dark .pane-content{
+margin:0;
+width:100%;
 }

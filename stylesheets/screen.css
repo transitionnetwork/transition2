@@ -286,12 +286,18 @@ h1#page-title, h2#page-title, .sidebar .block h2, .sidebar .block h3, .panel-pan
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003114}}
+.panel-pane p iframe {
+  position: relative;
+  left: -5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003118}}
 .panel-pane .view-featured-content {
   background-color: white;
   border-radius: 2px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003122}}
 .front .panel-pane .panel-pane-inner .pane-content {
   display: inline-block;
   margin: 0;
@@ -299,7 +305,7 @@ h1#page-title, h2#page-title, .sidebar .block h2, .sidebar .block h3, .panel-pan
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003128}}
 .panel-pane {
   border-radius: 2px;
   display: inline-block;
@@ -307,7 +313,7 @@ h1#page-title, h2#page-title, .sidebar .block h2, .sidebar .block h3, .panel-pan
   margin: 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003134}}
 .front .panel-pane, .page-nearby .panel-pane {
   position: relative;
   background: #f7f6f3;
@@ -345,86 +351,91 @@ h1#page-title, h2#page-title, .sidebar .block h2, .sidebar .block h3, .panel-pan
   right: 8px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003140}}
 .panel-panel .inside,
 panels-flexible-row, .inside {
   position: relative;
   z-index: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003144}}
 .panel-panel {
   margin-top: 0;
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003148}}
 #main.grid-12 .panel-col-last {
   margin-right: 10px;
   width: 224px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003152}}
 .panel-display .center-wrapper {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003155}}
 .pane-slideshows-panel-pane-1 {
   width: 700px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003154}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003158}}
 .panel-panel.panel-col-middle {
   margin-top: 10px;
   position: relative;
   top: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003160}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003164}}
 .front .panel-pane-inner {
   margin: 0;
   padding: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003168}}
 .panel-pane .pane-content {
   background: white;
   border-radius: 2px;
   height: 100%;
   margin: 10px;
-  display: inline-block;
+  display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003175}}
 .panel-pane.pane-node-body .pane-content {
   margin: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003175}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003179}}
 .hp-block {
   min-height: 0px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003182}}
 .panel-col-last .panel-pane {
   margin-right: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003181}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003185}}
 .center-wrapper .panel-col-last .panel-pane {
   margin-right: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003184}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003188}}
 #main .pane-content h3 {
   margin: 0;
   padding: 0 5px 0 2px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003192}}
+div.panel-pane.pane-node-title {
+  border-radius: 2px;
+}
+
 /*footer*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003195}}
 #footer-inline-region .block {
   position: relative;
   background: #e8e6db url(images/noisy-texture-200x200.png);
@@ -462,7 +473,7 @@ panels-flexible-row, .inside {
   right: 8px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003200}}
 #footer-inline-region {
   position: relative;
   z-index: 1;
@@ -471,7 +482,7 @@ panels-flexible-row, .inside {
   border: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003207}}
 #footer-banner-region {
   position: relative;
   z-index: 1;
@@ -479,7 +490,7 @@ panels-flexible-row, .inside {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003211}}
 #footer-banner-region .block {
   position: relative;
   background-color: white;
@@ -517,47 +528,47 @@ panels-flexible-row, .inside {
   right: 8px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003215}}
 #footer-inline-region .block-inner {
   margin-top: 0px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003212}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003218}}
 #footer {
   padding: 0;
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003222}}
 #footer-message {
   border-radius: 2px 2px 0 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003225}}
 #footer-inline-region .block-inner {
   min-height: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003220}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003226}}
 .newsletter a.button {
   background-color: #9CCF55;
   background-image: -moz-linear-gradient(center top, #b2d77d, #9ccf55);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003223}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003229}}
 #footer-inline-region {
   position: relative;
   z-index: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003233}}
 #footer-inline-region .block-inner .content {
   padding: 1px;
   border-radius: 2px;
 }
 
 /*join button*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003252}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003258}}
 #block-block-50 .top-links-ul li {
   background: repeat scroll 0 0 transparent;
   /* fallback/image non-cover color */
@@ -574,7 +585,7 @@ panels-flexible-row, .inside {
   border-radius: 0 0 2px 2px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003256}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003262}}
 #block-block-50 .top-links-ul li.first {
   background: repeat scroll 0 0 transparent;
   /* fallback/image non-cover color */
@@ -591,7 +602,7 @@ panels-flexible-row, .inside {
   border-radius: 0 0 2px 2px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003259}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003265}}
 #block-block-50 .top-links-ul li.last {
   background: repeat scroll 0 0 transparent;
   /* fallback/image non-cover color */
@@ -608,28 +619,28 @@ panels-flexible-row, .inside {
   border-radius: 0 0 2px 2px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003262}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003268}}
 .top-links-ul li:after {
   content: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003265}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003271}}
 .top-links-ul li {
   padding: 0 0.5em;
   margin-right: 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003269}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003275}}
 #top-links .block {
   margin-top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003271}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003277}}
 #top-links .intro-links-ul {
   margin-top: 7px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003274}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003280}}
 #top-links .top-links-ul li {
   padding-top: 6px;
   font-size: 14px;
@@ -638,52 +649,52 @@ panels-flexible-row, .inside {
   top: -2px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003281}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003287}}
 .top-links-ul li a, .top-links-ul li a:visited {
   text-shadow: none;
 }
 
 /*slideshow*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003285}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003291}}
 #main-content .slideshow {
   margin-left: 0px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003295}}
 #main-content .slideshow img {
   border-radius: 2px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003292}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003298}}
 .front .pane-slideshows-panel-pane-1 {
   background: none;
   box-shadow: none;
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003297}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003303}}
 .pane-slideshows-panel-pane-1 .panel-pane-inner {
   margin: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003301}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003307}}
 .panel-pane.pane-slideshows-panel-pane-1 .pane-content {
   padding: 0;
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003305}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003311}}
 .pane-slideshows-panel-pane-1 .clear {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003308}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003314}}
 .slideshow .desc {
   background: #ffdd60 url(images/noisy-texture-200x200.png);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003309}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003315}}
 #main .slideshow h1.welcome {
   background: repeat scroll 0 0 transparent;
   /* fallback/image non-cover color */
@@ -702,7 +713,7 @@ panels-flexible-row, .inside {
   color: white;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003320}}
 .slideshow .views-field-field-slide-destination-link-url {
   background: repeat scroll 0 0 transparent;
   /* fallback/image non-cover color */
@@ -730,7 +741,7 @@ panels-flexible-row, .inside {
   z-index: 2;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003334}}
 .slideshow a.learn:link,
 .slideshow a.learn:visited {
   border-radius: 0 0 0 0;
@@ -750,45 +761,45 @@ panels-flexible-row, .inside {
   color: black;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003351}}
 .slideshow a.learn:hover {
   border-bottom: 1px solid white;
   color: white;
 }
 
 /*Ingredient of the day*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003355}}
 .view-display-id-panel_pane_2 .views-field-field-image-fid {
   float: right;
   margin: 11px 0 11px 10px;
   width: 200px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003360}}
 .view-display-id-panel_pane_2 .views-field-phpcode-1 {
   padding: 5px 0 0 5px;
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003364}}
 .view-display-id-panel_pane_2 .views-field-field-stage-nid {
   margin: 0;
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003368}}
 .view-display-id-panel_pane_2 .views-field-phpcode {
   padding-bottom: 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003371}}
 .views-field-phpcode-1 h3 {
   border-right: 2px solid #98b757;
   margin-right: 5px;
   padding: 0 10px 0 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003376}}
 #main .panel-pane.carrot {
   background: #c4d39d url(images/ingredient_carrot.png) no-repeat;
   background-position: right bottom;
@@ -799,19 +810,19 @@ panels-flexible-row, .inside {
   padding: 0 0 40px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003386}}
 #main .panel-pane.carrot .field-content a.imagecache.imagecache-thumb-medium.imagecache-linked.imagecache-thumb-medium_linked img.imagecache.imagecache-thumb-medium {
   margin-left: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003389}}
 .node-type-profile .panels-flexible-region-inside-first .panel-pane .pane-content {
   margin: 0;
 }
 
 /*sidebars*/
 /*sidebar right blocks*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003393}}
 #sidebar-right .block {
   position: relative;
   border-radius: 2px;
@@ -848,21 +859,21 @@ panels-flexible-row, .inside {
   right: 8px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003397}}
 #sidebar-right {
   position: relative;
   z-index: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003395}}
-.greystripe_bg, .greenstripe_bg, .sidebar .block, .new-bricks .address-contact {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003401}}
+.shadowpanel, .greystripe_bg, .greenstripe_bg, .sidebar .block, .new-bricks .address-contact {
   background: #e8e6db url(images/noisy-texture-200x200.png);
   position: relative;
   border-radius: 2px;
   padding: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\0000385}}
-.greystripe_bg:before, .greystripe_bg:after, .greenstripe_bg:before, .greenstripe_bg:after, .sidebar .block:before, .sidebar .block:after, .new-bricks .address-contact:before, .new-bricks .address-contact:after {
+.shadowpanel:before, .shadowpanel:after, .greystripe_bg:before, .greystripe_bg:after, .greenstripe_bg:before, .greenstripe_bg:after, .sidebar .block:before, .sidebar .block:after, .new-bricks .address-contact:before, .new-bricks .address-contact:after {
   bottom: 15px;
   content: '\0020';
   height: 40px;
@@ -875,7 +886,7 @@ panels-flexible-row, .inside {
   box-shadow: 0 15px 5px rgba(0, 0, 0, 0.2);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\0000395}}
-.greystripe_bg:before, .greenstripe_bg:before, .sidebar .block:before, .new-bricks .address-contact:before {
+.shadowpanel:before, .greystripe_bg:before, .greenstripe_bg:before, .sidebar .block:before, .new-bricks .address-contact:before {
   -webkit-transform: skew(-4deg, -3deg);
   -moz-transform: skew(-4deg, -3deg);
   -ms-transform: skew(-4deg, -3deg);
@@ -884,7 +895,7 @@ panels-flexible-row, .inside {
   left: 8px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\0000399}}
-.greystripe_bg:after, .greenstripe_bg:after, .sidebar .block:after, .new-bricks .address-contact:after {
+.shadowpanel:after, .greystripe_bg:after, .greenstripe_bg:after, .sidebar .block:after, .new-bricks .address-contact:after {
   -webkit-transform: skew(4deg, 3deg);
   -moz-transform: skew(4deg, 3deg);
   -ms-transform: skew(4deg, 3deg);
@@ -893,38 +904,44 @@ panels-flexible-row, .inside {
   right: 8px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003403}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003408}}
+#page .bookpromo {
+  background: #e8e6db url(images/noisy-texture-200x200.png);
+  padding: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003413}}
 #footer-inline-region .block-inner {
   background: none;
   box-shadow: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003407}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003417}}
 .sidebar .block .content, .panel_show_bg .pane-content, .view_show_bg .view .view-content {
   background: white;
   border-radius: 2px;
   padding: 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003412}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003422}}
 .sidebar ul.menu li a:link, .sidebar ul.menu li a:visited {
   background: #f0eee7 url(images/noisy-texture-200x200.png);
   border-radius: 2px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003415}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003425}}
 .sidebar ul.menu li a:hover, .sidebar ul.menu li a:focus, .sidebar ul.menu li a:active {
   background: #ffdd60 url(images/noisy-texture-200x200.png);
 }
 
 /*main pages*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003420}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003430}}
 .not-front #page {
   position: static;
   z-index: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003423}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003433}}
 .not-front #main {
   position: relative;
   background-color: transparent;
@@ -963,60 +980,60 @@ panels-flexible-row, .inside {
   right: 8px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003428}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003438}}
 .panel-pane.transparent .pane-content {
   background: transparent;
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003430}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003440}}
 .panel-pane.transparent .pane-content p {
   margin: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003433}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003443}}
 .panel-pane.transparent .panel-pane-inner {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003437}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003447}}
 #main-content {
   margin-bottom: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003440}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003450}}
 .breadcrumb {
   border-bottom: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003442}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003452}}
 #main h1 {
   padding: 0 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003444}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003454}}
 #sidebar-right, #sidebar-left {
   padding-top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003447}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003457}}
 #sidebar-right .block-1 {
   margin-top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003450}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003460}}
 div.help {
   margin: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003452}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003462}}
 #main ul, #main ol {
   margin: 10px 20px;
   padding: 0 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003456}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003466}}
 #main .sidebar ul {
   border-top: 1px solid #FFFFFF;
   margin: 10px 8px 8px;
@@ -1024,20 +1041,20 @@ div.help {
   text-align: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003462}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003472}}
 #main-content .content {
   border-bottom: none;
 }
 
 /*images and captions*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003466}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003476}}
 #main-content .content img {
   background: none repeat scroll 0 0 #f0eee7;
   border: 1px solid #d2cdb5;
   padding: 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003471}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003481}}
 #main-content .content img.caption {
   background: none repeat scroll 0 0 #f0eee7;
   border-left: 1px solid #d2cdb5;
@@ -1047,12 +1064,12 @@ div.help {
   padding: 5px 5px 0 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003479}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003489}}
 .image-caption-container {
   line-height: 0px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003482}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003492}}
 .image-caption {
   background-color: #f0eee7;
   color: black;
@@ -1070,31 +1087,31 @@ div.help {
 }
 
 /*featured image*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003498}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003508}}
 .field-field-featured-image {
   float: right;
   margin: 0 1em 1em 0;
 }
 
 /*nav*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003503}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003513}}
 .sf-menu li li a, .sf-menu li li a {
   background: #c4d39d;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003505}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003515}}
 .sf-menu li a:hover, .sf-menu li:hover, .sf-menu li.sfHover, .sf-menu li a:focus, .sf-menu li a.active {
   background: #c4d39d;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003510}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003520}}
 #headwrap {
   border-bottom: 5px solid #c4d39d;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003511}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003521}}
 .sf-menu li a.menu-1338 {
   background: url("/sites/all/themes/transition2/images/home.png") no-repeat scroll center center #c4d39d;
   display: block;
@@ -1103,12 +1120,12 @@ div.help {
 }
 
 /*why what how where*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003520}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003530}}
 #sidebar-right {
   margin-top: 0px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003523}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003533}}
 #sidebar-right #block-block-59 {
   box-shadow: none;
   background: transparent;
@@ -1117,12 +1134,12 @@ div.help {
   margin: 10px 0 0 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003539}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003549}}
 #intronav .last {
   height: 59px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003542}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003552}}
 #block-block-59 h2 {
   position: absolute;
   left: -10000px;
@@ -1132,7 +1149,7 @@ div.help {
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003543}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003553}}
 #block-block-59 .intro_item span {
   position: absolute;
   left: -10000px;
@@ -1142,14 +1159,14 @@ div.help {
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003545}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003555}}
 #block-block-59 #intronav {
   background: url("images/confused.png") no-repeat scroll 0 -22px transparent;
   border: medium none;
   margin: 0;
   padding-top: 62px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003552}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003562}}
 #block-block-59 #intronav .why a:link {
   display: block;
   height: 50px;
@@ -1159,11 +1176,11 @@ div.help {
   -webkit-transition: all 0s linear 0s;
   background-position: 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003556}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003566}}
 #block-block-59 #intronav .why a:hover {
   background-position: 0 -575px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003561}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003571}}
 #block-block-59 #intronav .what a:link {
   display: block;
   height: 50px;
@@ -1173,11 +1190,11 @@ div.help {
   -webkit-transition: all 0s linear 0s;
   background-position: 0 -50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003565}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003575}}
 #block-block-59 #intronav .what a:hover {
   background-position: 0 -625px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003570}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003580}}
 #block-block-59 #intronav .how a:link {
   display: block;
   height: 50px;
@@ -1187,36 +1204,36 @@ div.help {
   -webkit-transition: all 0s linear 0s;
   background-position: 0 -100px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003574}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003584}}
 #block-block-59 #intronav .how a:hover {
   background-position: 0 -675px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003578}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003588}}
 #block-block-59 #intronav .how ul li a:link {
   height: 25px;
   background-position: 0 -175px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003582}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003592}}
 #block-block-59 #intronav .how ul li a:hover {
   background-position: 0 -750px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003585}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003595}}
 #block-block-59 #intronav .how ul li a.first:link {
   background-position: 0 -150px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003588}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003598}}
 #block-block-59 #intronav .how ul li a.first:hover {
   background-position: 0 -725px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003591}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003601}}
 #block-block-59 #intronav .how ul li a.last:link {
   background-position: 0 -200px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003594}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003604}}
 #block-block-59 #intronav .how ul li a.last:hover {
   background-position: 0 -775px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003597}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003607}}
 #block-block-59 #intronav .how ul li a span {
   color: #008b98;
   font-weight: normal;
@@ -1225,11 +1242,11 @@ div.help {
   position: relative;
   top: 1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003606}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003616}}
 #block-block-59 #intronav .how ul {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003610}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003620}}
 #block-block-59 #intronav .where a:link {
   display: block;
   height: 50px;
@@ -1239,11 +1256,11 @@ div.help {
   -webkit-transition: all 0s linear 0s;
   background-position: 0 -425px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003614}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003624}}
 #block-block-59 #intronav .where a:hover {
   background-position: 0 -1000px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003619}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003629}}
 #block-block-59 #intronav .do a:link {
   display: block;
   height: 50px;
@@ -1253,25 +1270,25 @@ div.help {
   -webkit-transition: all 0s linear 0s;
   background-position: 0 -475px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003623}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003633}}
 #block-block-59 #intronav .do a:hover {
   background-position: 0 -1050px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003626}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003636}}
 #block-block-59 #intronav .do a.last {
   height: 60px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003630}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003640}}
 #block-block-59 #intronav ul {
   border: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003633}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003643}}
 #block-block-59 #intronav ul ul {
   background: none;
   padding-top: 0;
   border: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003641}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003651}}
 #block-block-59 #intronav li {
   border: none;
   list-style: none outside none;
@@ -1279,7 +1296,7 @@ div.help {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003651}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003661}}
 #sidebar-right #block-block-59:before,
 #sidebar-right #block-block-59:after {
   box-shadow: none;
@@ -1287,26 +1304,26 @@ div.help {
   left: 0px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003655}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003665}}
 #sidebar-right #block-block-59 .content {
   box-shadow: none;
   background: transparent;
   transform: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003660}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003670}}
 .front #sidebar-right #block-block-60 {
   margin-top: 8px;
 }
 
 /*messages*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003665}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003675}}
 div.messages, .messages.error {
   margin: 10px;
 }
 
 /*add monsters*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003673}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003683}}
 #footer-message {
   background: url(images/peeking.png) no-repeat 400px -68px #868680;
 }
@@ -1415,110 +1432,192 @@ a.bigbutton:hover {
 /*@import "v1";*/
 /*@import "v2";*/
 /*profiles*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003682}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003692}}
 .view-people-maps .view-content {
   margin: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003686}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003696}}
 .panels-flexible-region-inside-last {
   padding-right: 10px;
 }
 
 /*attachments*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003690}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003700}}
 .itu-attachments {
   margin: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003693}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003703}}
 .itu-attachments #attachments {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003696}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003706}}
 .itu-attachments table.itu-attachment-list .mime {
   display: inline-block;
 }
 
 /*robs blog*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003706}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003716}}
 body.not-front.tn_culture {
   background: #b5b47d url(images/noisy-texture-big-200x200.png);
   background-attachment: fixed;
   /*nav*/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003710}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003720}}
 body.not-front.tn_culture #body-container {
   background: #e8e7be url(images/noisy-texture-200x200.png);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003713}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003723}}
 body.not-front.tn_culture #block-block-81 {
   text-align: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003714}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003724}}
 body.not-front.tn_culture #main h1 {
   border-bottom: 2px solid #fd9500;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003716}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003726}}
 body.not-front.tn_culture greystripe_bg, body.not-front.tn_culture .greenstripe_bg, body.not-front.tn_culture .sidebar .block, body.not-front.tn_culture .new-bricks .address-contact {
   background: url("images/noisy-texture-200x200.png") #f1f1d8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003718}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003728}}
 body.not-front.tn_culture .sidebar .block .content, body.not-front.tn_culture .panel_show_bg .pane-content, body.not-front.tn_culture .view_show_bg .view .view-content {
   background: #fd9500;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003720}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003730}}
 body.not-front.tn_culture .sidebar ul.menu li a:link, body.not-front.tn_culture .sidebar ul.menu li a:visited, body.not-front.tn_culture .sidebar ul.menu li a:hover, body.not-front.tn_culture .sidebar ul.menu li a:focus, body.not-front.tn_culture .sidebar ul.menu li a:active {
   border-bottom: 1px solid #fd9500;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003722}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003732}}
 body.not-front.tn_culture .sidebar ul.menu li.first {
   border-top: 1px solid #fd9500;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003724}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003734}}
 body.not-front.tn_culture .submitted {
   border-bottom: 1px solid #fd9500;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003726}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003736}}
 body.not-front.tn_culture .node-teaser {
   border-bottom: 2px solid #fd9500;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003729}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003739}}
 body.not-front.tn_culture .field.field-type-link.field-field-original-url {
   background: none repeat scroll 0 0 #fafaf2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003731}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003741}}
 body.not-front.tn_culture #main-content .node_read_more a {
   background: none repeat scroll 0 0 #fd9500;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003734}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003744}}
 body.not-front.tn_culture #main-content .node_read_more a:hover {
   background: none repeat scroll 0 0 #e8e7be;
   color: black;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003738}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003748}}
 body.not-front.tn_culture .sf-menu li li a, body.not-front.tn_culture .sf-menu li li a {
   background: #f1f1d8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003740}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003750}}
 body.not-front.tn_culture .sf-menu li a:hover, body.not-front.tn_culture .sf-menu li:hover, body.not-front.tn_culture .sf-menu li.sfHover, body.not-front.tn_culture .sf-menu li a:focus, body.not-front.tn_culture .sf-menu li a.active {
   background: #f1f1d8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003743}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003753}}
 body.not-front.tn_culture #headwrap {
   border-bottom: 5px solid #f1f1d8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003744}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003754}}
 body.not-front.tn_culture .sf-menu li a.menu-1338 {
   background: url("/sites/all/themes/transition2/images/home.png") no-repeat scroll center center #f1f1d8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003746}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003756}}
 body.not-front.tn_culture .sidebar ul.menu li a:link, body.not-front.tn_culture .sidebar ul.menu li a:visited {
   background: url("/sites/all/themes/transition2/stylesheets/images/noisy-texture-200x200.png") repeat scroll 0 0 #fafaf2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003748}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003758}}
 body.not-front.tn_culture .sidebar ul.menu li a:hover, body.not-front.tn_culture .sidebar ul.menu li a:focus, body.not-front.tn_culture .sidebar ul.menu li a:active {
   background: url("/sites/all/themes/transition2/stylesheets/images/noisy-texture-200x200.png") repeat scroll 0 0 #fd9500;
   color: white;
+}
+
+/*Ingredients fixes*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003764}}
+.jade_bg {
+  border-radius: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003767}}
+#main .jade_bg h2 {
+  border-radius: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003770}}
+.blue_bg {
+  border-radius: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003773}}
+#main .blue_bg h2 {
+  border-radius: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003776}}
+.gold_bg {
+  border-radius: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003779}}
+#main .gold_bg h2 {
+  border-radius: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003782}}
+.red_bg {
+  border-radius: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003785}}
+#main .red_bg h2 {
+  border-radius: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003788}}
+.purple_bg {
+  border-radius: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003791}}
+#main .purple_bg h2 {
+  border-radius: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003794}}
+.page-ingredients .pane-node-title .pane-content {
+  background: none;
+  display: inline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003802}}
+.page-ingredients .panel-pane.jade_dark,
+.page-ingredients .panel-pane.blue_dark,
+.page-ingredients .panel-pane.gold_dark,
+.page-ingredients .panel-pane.red_dark,
+.page-ingredients .panel-pane.purple_dark {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003805}}
+.page-ingredients .panel-panel {
+  position: relative;
+  z-index: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003813}}
+.page-ingredients .panel-pane.jade_dark .pane-content,
+.page-ingredients .panel-pane.blue_dark .pane-content,
+.page-ingredients .panel-pane.gold_dark .pane-content,
+.page-ingredients .panel-pane.red_dark .pane-content,
+.page-ingredients .panel-pane.purple_dark .pane-content {
+  margin: 0;
+  width: 100%;
 }
