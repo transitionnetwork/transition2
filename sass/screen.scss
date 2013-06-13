@@ -448,8 +448,10 @@ background:none;
 .not-front.node-type-panel #page{
 position:static;
 z-index:1;}
+.panel-pane.transparent{background: transparent;}
 .panel-pane.transparent .pane-content {
-    background: transparent;    display: inline-block;}
+    background: transparent;    display: inline-block;
+margin:0;}
 .panel-pane.transparent .pane-content p{
 margin:0;
 padding:0;	}
