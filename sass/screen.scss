@@ -129,7 +129,7 @@ display: inline-block;
 border-radius: $corner;
     display: inline-block;
     width: 100%;
-margin:5px;
+margin:0 10px 10px 0px;
 background:$neutral_tint_3 $containtertexture;
 }
 .front .panel-pane, .page-nearby .panel-pane{
@@ -299,7 +299,7 @@ border-radius: $corner;
 .front .pane-slideshows-panel-pane-1{
 background:none;
 box-shadow:none;
-margin:0;
+margin:0 0 0 0;
 }
 .pane-slideshows-panel-pane-1 .panel-pane-inner{
 margin:0;
@@ -890,6 +890,19 @@ background:none;
 }
 #page{
 position:static;
+}
+}
+.tn_culture{
+
+#main{
+background:none;
+}
+#page{
+position:static;
+}
+#main.grid-12 .panel-col-last {
+    margin-right: 0;
+    width: 50%;
 }
 }
 .node-type-profile{
