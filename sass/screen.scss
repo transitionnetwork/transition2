@@ -130,6 +130,7 @@ border-radius: $corner;
     display: inline-block;
     width: 100%;
 margin:5px;
+background:white;
 }
 .front .panel-pane, .page-nearby .panel-pane{
 @include corner-lift;
@@ -795,6 +796,12 @@ body.not-front.tn_culture{
 background:none;
 display: inline;
 }
+
+.page-ingredients .panel-pane.jade,
+.page-ingredients .panel-pane.blue,
+.page-ingredients .panel-pane.gold,
+.page-ingredients .panel-pane.red,
+.page-ingredients .panel-pane.purple,
 .page-ingredients .panel-pane.jade_dark,
 .page-ingredients .panel-pane.blue_dark,
 .page-ingredients .panel-pane.gold_dark,
