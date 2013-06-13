@@ -130,7 +130,7 @@ border-radius: $corner;
     display: inline-block;
     width: 100%;
 margin:5px;
-background:$neutral_tint_3;
+background:$neutral_tint_3 $containtertexture;
 }
 .front .panel-pane, .page-nearby .panel-pane{
 @include corner-lift;
@@ -797,18 +797,20 @@ background:none;
 display: inline;
 }
 
-.page-ingredients .panel-pane.jade,
-.page-ingredients .panel-pane.blue,
-.page-ingredients .panel-pane.gold,
-.page-ingredients .panel-pane.red,
-.page-ingredients .panel-pane.purple,
-.page-ingredients .panel-pane.jade_dark,
-.page-ingredients .panel-pane.blue_dark,
-.page-ingredients .panel-pane.gold_dark,
-.page-ingredients .panel-pane.red_dark,
-.page-ingredients .panel-pane.purple_dark{
+.page-ingredients .panel-pane.pane-custom.jade,
+.page-ingredients .panel-pane.pane-custom.blue,
+.page-ingredients .panel-pane.pane-custom.gold,
+.page-ingredients .panel-pane.pane-custom.red,
+.page-ingredients .panel-pane.pane-custom.purple,
+.page-ingredients .panel-pane.pane-custom.jade_dark,
+.page-ingredients .panel-pane.pane-custom.blue_dark,
+.page-ingredients .panel-pane.pane-custom.gold_dark,
+.page-ingredients .panel-pane.pane-custom.red_dark,
+.page-ingredients .panel-pane.pane-custom.purple_dark{
 margin:0;
 }
+ 
+
 .page-ingredients .panel-panel{
 position:relative;
 z-index:1;
@@ -822,8 +824,8 @@ margin:0;
 width:100%;
 }
 .page-ingredients .panel-pane.pane-custom{
-margin:0;
+margin:0 0 20px 0;
 }
-.panel-pane.shadowpanel{
+.panel-pane.shadowpanel.pane-custom{
 margin-bottom:20px;
 }

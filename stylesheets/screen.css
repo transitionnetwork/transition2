@@ -311,7 +311,7 @@ h1#page-title, h2#page-title, .sidebar .block h2, .sidebar .block h3, .panel-pan
   display: inline-block;
   width: 100%;
   margin: 5px;
-  background: #f0eee7;
+  background: #f0eee7 url(images/noisy-texture-200x200.png);
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003135}}
@@ -1599,26 +1599,26 @@ body.not-front.tn_culture .sidebar ul.menu li a:hover, body.not-front.tn_culture
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003809}}
-.page-ingredients .panel-pane.jade,
-.page-ingredients .panel-pane.blue,
-.page-ingredients .panel-pane.gold,
-.page-ingredients .panel-pane.red,
-.page-ingredients .panel-pane.purple,
-.page-ingredients .panel-pane.jade_dark,
-.page-ingredients .panel-pane.blue_dark,
-.page-ingredients .panel-pane.gold_dark,
-.page-ingredients .panel-pane.red_dark,
-.page-ingredients .panel-pane.purple_dark {
+.page-ingredients .panel-pane.pane-custom.jade,
+.page-ingredients .panel-pane.pane-custom.blue,
+.page-ingredients .panel-pane.pane-custom.gold,
+.page-ingredients .panel-pane.pane-custom.red,
+.page-ingredients .panel-pane.pane-custom.purple,
+.page-ingredients .panel-pane.pane-custom.jade_dark,
+.page-ingredients .panel-pane.pane-custom.blue_dark,
+.page-ingredients .panel-pane.pane-custom.gold_dark,
+.page-ingredients .panel-pane.pane-custom.red_dark,
+.page-ingredients .panel-pane.pane-custom.purple_dark {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003812}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003814}}
 .page-ingredients .panel-panel {
   position: relative;
   z-index: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003820}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003822}}
 .page-ingredients .panel-pane.jade_dark .pane-content,
 .page-ingredients .panel-pane.blue_dark .pane-content,
 .page-ingredients .panel-pane.gold_dark .pane-content,
@@ -1628,12 +1628,12 @@ body.not-front.tn_culture .sidebar ul.menu li a:hover, body.not-front.tn_culture
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003824}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003826}}
 .page-ingredients .panel-pane.pane-custom {
-  margin: 0;
+  margin: 0 0 20px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003827}}
-.panel-pane.shadowpanel {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003829}}
+.panel-pane.shadowpanel.pane-custom {
   margin-bottom: 20px;
 }
