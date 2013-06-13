@@ -1627,3 +1627,8 @@ body.not-front.tn_culture .sidebar ul.menu li a:hover, body.not-front.tn_culture
   margin: 0;
   width: 100%;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003824}}
+.page-ingredients .panel-pane.pane-custom {
+  margin: 0;
+}
