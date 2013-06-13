@@ -429,13 +429,19 @@ background:$yellow $containtertexture;
 
 /*main pages*/
 .not-front #page{
-position:static;
+position:relative;
 z-index:1;}
 .not-front #main{
 @include corner-lift;
-background-color:transparent;
+background:$neutral_tint_4 $containtertexture;
 border-radius: $corner;
 padding:0;}
+.not-front.node-type-panel #main{
+background:none;
+}
+.not-front.node-type-panel #page{
+position:static;
+z-index:1;}
 .panel-pane.transparent .pane-content {
     background: transparent;    display: inline-block;}
 .panel-pane.transparent .pane-content p{
@@ -840,4 +846,54 @@ margin-bottom:20px;
 	
 	#page .no_bg {
 	    background: $neutral_tint_3 $containtertexture;}
+}
+
+/*remove page backgrounds*/
+.page-ingredients{
+	#main{
+	background:none;
+	}
+	#page{
+	position:static;
+	}
+}
+.page-news{
+	.panel-pane{
+	margin:0;
+	background:transparent;
+	}
+}
+.not-front.node-type-stage{
+	#main{
+	background:none;
+	}
+	#page{
+	position:static;
+	}
+}
+.node-type-profile{
+	.panel-pane {
+		background:none;}
+		.details{
+		margin: 15px $boxpad $boxpad $boxpad;
+		background:white;
+		padding:$boxpad;
+		.panel-pane {
+			display: block;
+		    margin: 0;
+		    width: auto;
+
+			.pane-content {
+	    	background: transparent;
+				margin:0;
+				}
+			}
+		.panel-pane.pane-user-picture {
+		    float: left;
+		}
+		
+	}
+	.panel-pane.round_boxshadow{
+	background:white;
+	}
 }
