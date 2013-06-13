@@ -405,7 +405,7 @@ panels-flexible-row, .inside {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003176}}
 .panel-pane.pane-node-body .pane-content {
-  margin: 0;
+  margin: 10px;
   padding: 0;
 }
 
@@ -1636,4 +1636,49 @@ body.not-front.tn_culture .sidebar ul.menu li a:hover, body.not-front.tn_culture
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003829}}
 .panel-pane.shadowpanel.pane-custom {
   margin-bottom: 20px;
+}
+
+/*Stages pages tidy*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003834}}
+.node-type-stage .panel-pane {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\0000385}}
+.node-type-stage .panel-pane:before, .node-type-stage .panel-pane:after {
+  bottom: 15px;
+  content: '\0020';
+  height: 40px;
+  max-width: 50%;
+  position: absolute;
+  width: 50%;
+  z-index: -1;
+  -webkit-box-shadow: 0 15px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 15px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 15px 5px rgba(0, 0, 0, 0.2);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\0000395}}
+.node-type-stage .panel-pane:before {
+  -webkit-transform: skew(-4deg, -3deg);
+  -moz-transform: skew(-4deg, -3deg);
+  -ms-transform: skew(-4deg, -3deg);
+  -o-transform: skew(-4deg, -3deg);
+  transform: skew(-4deg, -3deg);
+  left: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\0000399}}
+.node-type-stage .panel-pane:after {
+  -webkit-transform: skew(4deg, 3deg);
+  -moz-transform: skew(4deg, 3deg);
+  -ms-transform: skew(4deg, 3deg);
+  -o-transform: skew(4deg, 3deg);
+  transform: skew(4deg, 3deg);
+  right: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003836}}
+.node-type-stage .panel-pane .pane-content {
+  margin: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003841}}
+.node-type-stage #page .no_bg {
+  background: #f0eee7 url(images/noisy-texture-200x200.png);
 }

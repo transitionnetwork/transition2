@@ -174,7 +174,7 @@ margin: $boxpad;
     display: block;
 }
 .panel-pane.pane-node-body .pane-content{
-margin:0;
+margin:$boxpad;
 padding:0;
 }
 .hp-block {
@@ -828,4 +828,16 @@ margin:0 0 20px 0;
 }
 .panel-pane.shadowpanel.pane-custom{
 margin-bottom:20px;
+}
+/*Stages pages tidy*/
+.node-type-stage{
+	.panel-pane {
+	@include corner-lift;
+	.pane-content {
+	margin:$boxpad;
+		}
+	}
+	
+	#page .no_bg {
+	    background: $neutral_tint_3 $containtertexture;}
 }
