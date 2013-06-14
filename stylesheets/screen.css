@@ -1811,3 +1811,43 @@ body.not-front.tn_culture .sidebar ul.menu li a:hover, body.not-front.tn_culture
 .node-type-profile .panel-pane.round_boxshadow {
   background: white;
 }
+
+/*film content type*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003936}}
+.views-field-field-film-photo-fid {
+  float: right;
+  margin: 0 10px 10px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003940}}
+.view-Films .views-row {
+  min-height: 165px;
+  clear: both;
+  border-bottom: 2px solid #DCE1DA;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003944}}
+.views-field-view-node {
+  padding: 0 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003947}}
+.view-Films .views-field-view-node a {
+  background: none repeat scroll 0 0 #DCE1DA;
+  border-bottom: medium none;
+  border-radius: 5px 5px 5px 5px;
+  border-width: 1px 1px medium;
+  padding: 2px 5px;
+  text-align: center;
+  transition: all 0.3s linear 0s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003956}}
+.view-Films .views-field-view-node a:hover {
+  background: none repeat scroll 0 0 #027583;
+  border-bottom: medium none;
+  border-radius: 5px 5px 5px 5px;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 2px 5px;
+  text-align: center;
+}
