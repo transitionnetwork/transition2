@@ -135,7 +135,7 @@ background:$neutral_tint_3 $containtertexture;
 .front .panel-pane, .page-nearby .panel-pane{
 @include corner-lift;
 background:$neutral_tint_4;
-margin-top:1em;
+margin-top:0;
 }
 .panel-panel .inside,
 panels-flexible-row, .inside{
@@ -882,6 +882,14 @@ margin-bottom:20px;
 	#page{
 	position:static;
 	}
+}
+.page-nearby{
+#main{
+background:none;
+}
+#page{
+position:static;
+}
 }
 .theme-page{
 
