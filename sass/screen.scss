@@ -290,7 +290,7 @@ margin-top:7px;
 }
 #top-links .top-links-ul li {
 padding-top:6px;
-font-size:14px;
+font-size:13px;
 padding-bottom:3px;
 position:relative;
 top:-2px;
@@ -431,6 +431,11 @@ margin: 0;
 
 /*sidebar right blocks*/
 
+.sidebar .hide-title h2.title{ @include hidden;}
+.sidebar .block.button-block .content{
+background:transparent;
+}
+
 #sidebar-right .block{
 @include corner-lift;
 border-radius: $corner;
@@ -498,21 +503,25 @@ position:static;
 z-index:1;
 }
 
-.panel-pane.transparent{
+.panel-pane.transparent,
+#transparent.panel-pane{
 background: transparent;
 }
 
-.panel-pane.transparent .pane-content {
+.panel-pane.transparent .pane-content,
+#transparent.panel-pane .pane-content{
     background: transparent;    display: inline-block;
 margin:0;
 }
 
-.panel-pane.transparent .pane-content p{
+.panel-pane.transparent .pane-content p,
+#transparent.panel-pane .pane-content p{
 margin:0;
 padding:0;
 }
 
-.panel-pane.transparent .panel-pane-inner{
+.panel-pane.transparent .panel-pane-inner,
+#transparent.panel-pane .panel-pane-inner{
 margin:0;
 }
 

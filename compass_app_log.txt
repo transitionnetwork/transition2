@@ -3889,3 +3889,19 @@ Load paths:
 2013-06-14 12:03:18 overwrite stylesheets/screen.css 
 2013-06-14 12:03:18     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
 2013-06-14 12:03:18 identical stylesheets/skipnav.css 
+2013-06-14 13:09:25 overwrite stylesheets/screen.css 
+2013-06-14 13:09:25     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
+2013-06-14 13:09:25 identical stylesheets/skipnav.css 
+2013-06-14 16:32:11 overwrite stylesheets/screen.css 
+2013-06-14 16:32:11     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
+2013-06-14 16:32:11 identical stylesheets/skipnav.css 
+2013-06-19 10:12:10     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
+2013-06-19 10:12:10 overwrite stylesheets/skipnav.css 
+2013-06-19 11:35:22     error sass/colours.scss (Line 175: Undefined variable: "$containtertexture".)
+2013-06-19 11:35:22 identical stylesheets/colours.css 
+2013-06-19 11:35:24 overwrite stylesheets/screen.css 
+2013-06-19 11:35:24     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
+2013-06-19 11:35:24 overwrite stylesheets/skipnav.css 
+2013-06-19 12:22:17 overwrite stylesheets/screen.css 
+2013-06-19 12:22:18     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
+2013-06-19 12:22:18 identical stylesheets/skipnav.css 

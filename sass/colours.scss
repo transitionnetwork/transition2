@@ -186,6 +186,21 @@ background:$green_tint_4;
 	.block.yellow-tint-4 {
 	    background: $yellow_tint_4 $containtertexture;
 	}
+	.block.neutral {
+	    background: $neutral $containtertexture;
+	}
+	.block.neutral-tint-1 {
+	    background: $neutral_tint_1 $containtertexture;
+	}
+	.block.neutral-tint-2 {
+	    background: $neutral_tint_2 $containtertexture;
+	}
+	.block.neutral-tint-3 {
+	    background: $neutral_tint_3 $containtertexture;
+	}
+	.block.neutral-tint-4 {
+	    background: $neutral_tint_4 $containtertexture;
+	}
 	.block.green{
 		background:$green $containtertexture;
 	}
