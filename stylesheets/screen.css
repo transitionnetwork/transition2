@@ -248,6 +248,22 @@
 #sidebar-right .block.turquoise {
   background: #008b98 url(images/noisy-texture-200x200.png);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003222}}
+#sidebar-right .block.turquoise-tint-1 {
+  background: #afc47a url(images/noisy-texture-200x200.png);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003225}}
+#sidebar-right .block.turquoise-tint-2 {
+  background: #c4d39d url(images/noisy-texture-200x200.png);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003228}}
+#sidebar-right .block.turquoise-tint-3 {
+  background: #d8e2bf url(images/noisy-texture-200x200.png);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/colours\.scss}line{font-family:\00003231}}
+#sidebar-right .block.turquoise-tint-4 {
+  background: #ecf0e0 url(images/noisy-texture-200x200.png);
+}
 
 /*bens first scss*/
 /*reduce header height*/
