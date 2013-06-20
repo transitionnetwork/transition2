@@ -174,6 +174,9 @@ height:100%;
 margin: $boxpad;
     display: block;
 }
+.panel-2col-stacked .panel-pane .pane-content{
+display: inline-block;
+}
 .panel-pane.pane-node-body .pane-content{
 margin:$boxpad;
 padding:0;
@@ -194,6 +197,12 @@ padding:0 5px 0 2px;
 div.panel-pane.pane-node-title {
     border-radius: $corner;}
 
+.panels-flexible-region-new-bricks-top_left {
+	    width: 47.5%;
+	}
+.new-bricks .address-contact {
+	    width: 47.5%;
+	}
 
 
 /*footer*/
@@ -468,7 +477,7 @@ box-shadow:none;
 .sidebar .block .content, .panel_show_bg .pane-content, .view_show_bg .view .view-content {
     background: white;
     border-radius: $corner;
-    padding: 5px;
+    padding: $boxpad;
 }
 
 .sidebar ul.menu li a:link, .sidebar ul.menu li a:visited{
@@ -824,9 +833,14 @@ div.messages, .messages.error {
     padding: 0;
 }
 .panels-flexible-region-inside-last {
-    padding-right: $boxpad;
+    padding-right: 5px;
 }
-
+.panels-flexible-region-inside {
+padding-left: 5px;
+padding-right: 5px;
+}
+/*events*/
+.event-page
 
 /*attachments*/
 
@@ -1040,9 +1054,15 @@ position:static;
     width: 50%;
 }
 }
-.node-type-profile{
+.node-type-profile, .event-page{
 	.panel-pane {
-		background:none;}
+		background:white;}
+	.panels-flexible-region-new-bricks-top_right-inside	.panel-pane{
+			background:none;
+			
+			    margin-bottom: 15px;
+			
+			}
 		.details{
 		margin: 15px $boxpad $boxpad $boxpad;
 		background:white;
@@ -1064,6 +1084,24 @@ position:static;
 	}
 	.panel-pane.round_boxshadow{
 	background:white;
+	}
+}
+.event-page{ 
+	.panels-flexible-region-new-bricks-top_left{
+	padding:0;
+	}
+
+	.pane-location-node-panel-pane-3{
+	margin: 0;
+	
+		.pane-content {
+    	background:transparent;}
+		
+		.view-content{
+		padding:0;
+		}
+		
+		
 	}
 }
 
