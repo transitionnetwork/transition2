@@ -1054,7 +1054,7 @@ position:static;
     width: 50%;
 }
 }
-.node-type-profile, .event-page, .initiative-page, .project-page{
+.node-type-profile, .event-page, .initiative-page, .project-page, .node-type-ingredient{
 	.panel-pane {
 		background:white;}
 	.panels-flexible-region-new-bricks-top_right-inside	.panel-pane{
@@ -1117,6 +1117,30 @@ margin:$boxpad;
 /*profiles overrides*/
 .nodeauthor-info {
     clear: both;}
+
+/*ingredients overrides*/
+.node-type-ingredient {
+.panel-panel.panel-col-first{
+background:white;
+margin:$boxpad;
+
+float: left;
+width: 71.5%;
+
+border-radius: $corner;
+@include corner-lift;
+
+}
+.main-wrapper{
+    position: relative;
+    z-index: 1;
+}
+
+	.pane-image-tools-panel-pane-2 {
+    margin: 0;
+    padding-left: 0;
+	}
+}
 /*film content type*/
 
 
