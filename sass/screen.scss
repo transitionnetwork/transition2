@@ -1054,7 +1054,7 @@ position:static;
     width: 50%;
 }
 }
-.node-type-profile, .event-page{
+.node-type-profile, .event-page, .initiative-page{
 	.panel-pane {
 		background:white;}
 	.panels-flexible-region-new-bricks-top_right-inside	.panel-pane{
@@ -1085,11 +1085,10 @@ position:static;
 	.panel-pane.round_boxshadow{
 	background:white;
 	}
-}
-.event-page{ 
+	
 	.panels-flexible-region-new-bricks-top_left{
-	padding:0;
-	}
+	padding:0;}
+
 
 	.pane-location-node-panel-pane-3{
 	margin: 0;
