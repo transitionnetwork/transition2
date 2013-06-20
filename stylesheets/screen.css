@@ -1877,76 +1877,91 @@ body.not-front.tn_culture .sidebar ul.menu li a:hover, body.not-front.tn_culture
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031058}}
-.node-type-profile .panel-pane, .event-page .panel-pane, .initiative-page .panel-pane {
+.node-type-profile .panel-pane, .event-page .panel-pane, .initiative-page .panel-pane, .project-page .panel-pane {
   background: white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031060}}
-.node-type-profile .panels-flexible-region-new-bricks-top_right-inside .panel-pane, .event-page .panels-flexible-region-new-bricks-top_right-inside .panel-pane, .initiative-page .panels-flexible-region-new-bricks-top_right-inside .panel-pane {
+.node-type-profile .panels-flexible-region-new-bricks-top_right-inside .panel-pane, .event-page .panels-flexible-region-new-bricks-top_right-inside .panel-pane, .initiative-page .panels-flexible-region-new-bricks-top_right-inside .panel-pane, .project-page .panels-flexible-region-new-bricks-top_right-inside .panel-pane {
   background: none;
   margin-bottom: 15px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031066}}
-.node-type-profile .details, .event-page .details, .initiative-page .details {
+.node-type-profile .details, .event-page .details, .initiative-page .details, .project-page .details {
   margin: 15px 10px 10px 10px;
   background: white;
   padding: 10px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031070}}
-.node-type-profile .details .panel-pane, .event-page .details .panel-pane, .initiative-page .details .panel-pane {
+.node-type-profile .details .panel-pane, .event-page .details .panel-pane, .initiative-page .details .panel-pane, .project-page .details .panel-pane {
   display: block;
   margin: 0;
   width: auto;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031075}}
-.node-type-profile .details .panel-pane .pane-content, .event-page .details .panel-pane .pane-content, .initiative-page .details .panel-pane .pane-content {
+.node-type-profile .details .panel-pane .pane-content, .event-page .details .panel-pane .pane-content, .initiative-page .details .panel-pane .pane-content, .project-page .details .panel-pane .pane-content {
   background: transparent;
   margin: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031080}}
-.node-type-profile .details .panel-pane.pane-user-picture, .event-page .details .panel-pane.pane-user-picture, .initiative-page .details .panel-pane.pane-user-picture {
+.node-type-profile .details .panel-pane.pane-user-picture, .event-page .details .panel-pane.pane-user-picture, .initiative-page .details .panel-pane.pane-user-picture, .project-page .details .panel-pane.pane-user-picture {
   float: left;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031085}}
-.node-type-profile .panel-pane.round_boxshadow, .event-page .panel-pane.round_boxshadow, .initiative-page .panel-pane.round_boxshadow {
+.node-type-profile .panel-pane.round_boxshadow, .event-page .panel-pane.round_boxshadow, .initiative-page .panel-pane.round_boxshadow, .project-page .panel-pane.round_boxshadow {
   background: white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031089}}
-.node-type-profile .panels-flexible-region-new-bricks-top_left, .event-page .panels-flexible-region-new-bricks-top_left, .initiative-page .panels-flexible-region-new-bricks-top_left {
+.node-type-profile .panels-flexible-region-new-bricks-top_left, .event-page .panels-flexible-region-new-bricks-top_left, .initiative-page .panels-flexible-region-new-bricks-top_left, .project-page .panels-flexible-region-new-bricks-top_left {
   padding: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031093}}
-.node-type-profile .pane-location-node-panel-pane-3, .event-page .pane-location-node-panel-pane-3, .initiative-page .pane-location-node-panel-pane-3 {
+.node-type-profile .pane-location-node-panel-pane-3, .event-page .pane-location-node-panel-pane-3, .initiative-page .pane-location-node-panel-pane-3, .project-page .pane-location-node-panel-pane-3 {
   margin: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031096}}
-.node-type-profile .pane-location-node-panel-pane-3 .pane-content, .event-page .pane-location-node-panel-pane-3 .pane-content, .initiative-page .pane-location-node-panel-pane-3 .pane-content {
+.node-type-profile .pane-location-node-panel-pane-3 .pane-content, .event-page .pane-location-node-panel-pane-3 .pane-content, .initiative-page .pane-location-node-panel-pane-3 .pane-content, .project-page .pane-location-node-panel-pane-3 .pane-content {
   background: transparent;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031099}}
-.node-type-profile .pane-location-node-panel-pane-3 .view-content, .event-page .pane-location-node-panel-pane-3 .view-content, .initiative-page .pane-location-node-panel-pane-3 .view-content {
+.node-type-profile .pane-location-node-panel-pane-3 .view-content, .event-page .pane-location-node-panel-pane-3 .view-content, .initiative-page .pane-location-node-panel-pane-3 .view-content, .project-page .pane-location-node-panel-pane-3 .view-content {
   padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031106}}
+.node-type-profile .panels-flexible-region-new-bricks-center-inside,
+.node-type-profile .panels-flexible-region-new-bricks-bottom-inside, .event-page .panels-flexible-region-new-bricks-center-inside,
+.event-page .panels-flexible-region-new-bricks-bottom-inside, .initiative-page .panels-flexible-region-new-bricks-center-inside,
+.initiative-page .panels-flexible-region-new-bricks-bottom-inside, .project-page .panels-flexible-region-new-bricks-center-inside,
+.project-page .panels-flexible-region-new-bricks-bottom-inside {
+  padding: 10px 5px 10px 10px;
+}
+
+/*projects ovverides*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031113}}
+.node-type-project-profile .panels-flexible-row-new-bricks-5 {
+  background: white;
+  margin: 10px;
 }
 
 /*film content type*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031121}}
 .views-field-field-film-photo-fid {
   float: right;
   margin: 0 10px 10px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031126}}
 .view-Films .views-row {
   min-height: 165px;
   clear: both;
   border-bottom: 2px solid #DCE1DA;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031130}}
 .views-field-view-node {
   padding: 0 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031133}}
 .view-Films .views-field-view-node a {
   background: none repeat scroll 0 0 #DCE1DA;
   border-bottom: medium none;
@@ -1956,7 +1971,7 @@ body.not-front.tn_culture .sidebar ul.menu li a:hover, body.not-front.tn_culture
   text-align: center;
   transition: all 0.3s linear 0s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031142}}
 .view-Films .views-field-view-node a:hover {
   background: none repeat scroll 0 0 #027583;
   border-bottom: medium none;

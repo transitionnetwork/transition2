@@ -1054,7 +1054,7 @@ position:static;
     width: 50%;
 }
 }
-.node-type-profile, .event-page, .initiative-page{
+.node-type-profile, .event-page, .initiative-page, .project-page{
 	.panel-pane {
 		background:white;}
 	.panels-flexible-region-new-bricks-top_right-inside	.panel-pane{
@@ -1102,9 +1102,18 @@ position:static;
 		
 		
 	}
+	.panels-flexible-region-new-bricks-center-inside,
+	.panels-flexible-region-new-bricks-bottom-inside{
+	
+	padding:$boxpad 5px $boxpad $boxpad;
+	}
+	
 }
-
-
+/*projects ovverides*/
+.node-type-project-profile .panels-flexible-row-new-bricks-5 {
+background:white;
+margin:$boxpad;
+}
 
 /*film content type*/
 
