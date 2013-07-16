@@ -918,7 +918,7 @@ div.panel-pane.pane-node-title {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003441}}
-.view-featured-content .imagecache-featured_image_thumb {
+.views-field-field-featured-image-fid .imagecache-featured_image_thumb {
   float: right;
   padding: 5px;
 }
