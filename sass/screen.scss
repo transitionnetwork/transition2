@@ -108,7 +108,7 @@ h1#page-title, h2#page-title, .sidebar .block h2, .sidebar .block h3, .panel-pan
 	padding:0;
 	font-family: 'ArvoRegular',georgia,times,"Times New Roman",serif;
 	}
-.panel-pane p{
+.panel-pane p, .panel-pane .views-field-body, .panel-pane .views-field-title_1 {
 margin:10px 3px;
 padding:0 10px;
 }

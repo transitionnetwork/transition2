@@ -336,7 +336,7 @@ h1#page-title, h2#page-title, .sidebar .block h2, .sidebar .block h3, .panel-pan
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003111}}
-.panel-pane p {
+.panel-pane p, .panel-pane .views-field-body, .panel-pane .views-field-title_1 {
   margin: 10px 3px;
   padding: 0 10px;
 }
