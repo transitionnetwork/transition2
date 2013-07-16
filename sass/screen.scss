@@ -108,10 +108,14 @@ h1#page-title, h2#page-title, .sidebar .block h2, .sidebar .block h3, .panel-pan
 	padding:0;
 	font-family: 'ArvoRegular',georgia,times,"Times New Roman",serif;
 	}
-.panel-pane p, .panel-pane .views-field-body .field-content, .panel-pane .views-field-title_1 .field-content {
+.panel-pane p{
 margin:10px 3px;
 padding:0 10px;
 }
+.views-field-title-1 .field-content {
+margin:10px 3px;
+padding:0 10px;
+display:inline-block}
 .panel-pane p iframe{
 position:relative;
 left:-5px;
