@@ -429,22 +429,30 @@ padding:$boxpad $boxpad 140px !important;
     background: url("images/nearest.png") no-repeat scroll right bottom $turquoise_tint_3;
     padding: 0 0 78px;
 }
-
+#sidebar-right .find{background: url("images/nearest_small.png") no-repeat scroll 130px 13px $turquoise_tint_3;
+padding: 0 0 78px;}
+#sidebar-right .find h2{
+width:120px;
+}
 .node-type-profile .panels-flexible-region-inside-first .panel-pane .pane-content {
 margin: 0;
 }
 
-
+.view-featured-content .imagecache-featured_image_thumb{
+float:right; padding:5px
+}
 
 /*sidebars*/
 
 /*sidebar right blocks*/
 
 .sidebar .block.hide-title h2.title{ @include hidden;}
-.sidebar .block.button-block .content{
+.sidebar .block.button-block .content,
+.sidebar .block.transparent .content{
 background:transparent;
 padding:0;
 }
+.sidebar .block.transparent .content p{padding:0;}
 .sidebar .block.hide-title.button-block p{margin: 0 0 10px;}
 
 #sidebar-right .block{

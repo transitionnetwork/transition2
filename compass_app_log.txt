@@ -4103,3 +4103,52 @@ Load paths:
 2013-06-25 17:44:50 overwrite stylesheets/screen.css 
 2013-06-25 17:44:50     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
 2013-06-25 17:44:50 identical stylesheets/skipnav.css 
+2013-07-16 14:49:05     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
+2013-07-16 14:49:05 overwrite stylesheets/skipnav.css 
+2013-07-16 14:53:48 overwrite stylesheets/screen.css 
+2013-07-16 14:53:48     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
+2013-07-16 14:53:48 overwrite stylesheets/skipnav.css 
+2013-07-16 14:54:25 overwrite stylesheets/screen.css 
+2013-07-16 14:54:25     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
+2013-07-16 14:54:25 identical stylesheets/skipnav.css 
+2013-07-16 14:54:42 overwrite stylesheets/screen.css 
+2013-07-16 14:54:42     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
+2013-07-16 14:54:42 identical stylesheets/skipnav.css 
+2013-07-16 14:59:53 overwrite stylesheets/screen.css 
+2013-07-16 14:59:53     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
+2013-07-16 14:59:54 identical stylesheets/skipnav.css 
+2013-07-16 15:00:12 overwrite stylesheets/screen.css 
+2013-07-16 15:00:12     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
+2013-07-16 15:00:12 identical stylesheets/skipnav.css 
+2013-07-16 15:02:35 overwrite stylesheets/screen.css 
+2013-07-16 15:02:36     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
+2013-07-16 15:02:36 identical stylesheets/skipnav.css 
+2013-07-16 15:04:01 overwrite stylesheets/screen.css 
+2013-07-16 15:04:01     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
+2013-07-16 15:04:02 identical stylesheets/skipnav.css 
+2013-07-16 15:07:08 overwrite stylesheets/screen.css 
+2013-07-16 15:07:08     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
+2013-07-16 15:07:08 identical stylesheets/skipnav.css 
+2013-07-16 15:08:05 overwrite stylesheets/screen.css 
+2013-07-16 15:08:05     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
+2013-07-16 15:08:05 identical stylesheets/skipnav.css 
+2013-07-16 15:09:16 overwrite stylesheets/screen.css 
+2013-07-16 15:09:16     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
+2013-07-16 15:09:16 identical stylesheets/skipnav.css 
+2013-07-16 15:09:33 overwrite stylesheets/screen.css 
+2013-07-16 15:09:33     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
+2013-07-16 15:09:33 identical stylesheets/skipnav.css 
+2013-07-16 15:10:23 overwrite stylesheets/screen.css 
+2013-07-16 15:10:23     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
+2013-07-16 15:10:23 identical stylesheets/skipnav.css 
+2013-07-16 15:11:30     error sass/buttons.scss (Line 12: Undefined variable: "$yellow".)
+2013-07-16 15:11:30 identical stylesheets/buttons.css 
+2013-07-16 15:11:31 overwrite stylesheets/screen.css 
+2013-07-16 15:11:31     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
+2013-07-16 15:11:31 identical stylesheets/skipnav.css 
+2013-07-16 15:58:57 overwrite stylesheets/screen.css 
+2013-07-16 15:58:57     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
+2013-07-16 15:58:57 identical stylesheets/skipnav.css 
+2013-07-16 16:00:19 overwrite stylesheets/screen.css 
+2013-07-16 16:00:19     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
+2013-07-16 16:00:19 identical stylesheets/skipnav.css 
