@@ -433,10 +433,14 @@ padding:$boxpad $boxpad 140px !important;
     background: url("images/nearest.png") no-repeat scroll right bottom $turquoise_tint_3;
     padding: 0 0 78px;
 }
-#sidebar-right .find{background: url("images/nearest_small.png") no-repeat scroll 130px 13px $turquoise_tint_3;
-padding: 0 0 78px;}
-#sidebar-right .find h2{
-width:120px;
+#sidebar-right .find{background: url("images/nearest_small.png") no-repeat scroll bottom right $turquoise_tint_3;
+padding: 0 0 78px;
+	h2{
+	width:120px;
+	}
+	.content{
+	padding-right:52px
+	}
 }
 .node-type-profile .panels-flexible-region-inside-first .panel-pane .pane-content {
 margin: 0;
@@ -896,6 +900,8 @@ body.not-front.tn_culture{
 		    background: url("images/noisy-texture-200x200.png") $tn_light_tint_2;}
 	.sidebar .block .content, .panel_show_bg .pane-content, .view_show_bg .view .view-content {
 		background: $tn_orange;}
+	.sidebar .block.button-block .content, .main .panel-pane.transparent .pane-content{background: none;}
+		
 	.sidebar ul.menu li a:link, .sidebar ul.menu li a:visited, .sidebar ul.menu li a:hover, .sidebar ul.menu li a:focus, .sidebar ul.menu li a:active {
 		border-bottom: 1px solid $tn_orange;}
 	.sidebar ul.menu li.first {
