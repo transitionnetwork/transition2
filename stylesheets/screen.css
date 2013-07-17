@@ -2138,8 +2138,10 @@ body.not-front.tn_culture .sidebar ul.menu li a:hover, body.not-front.tn_culture
 }
 
 /*robs blog header blocks*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031240}}
-body.page-blogs.tn-culture #content-top-region .block {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031242}}
+body.page-blogs.tn-culture #content-top-region .block,
+#block-block-82,
+#block-block-86 {
   float: left;
   width: 350px;
 }
