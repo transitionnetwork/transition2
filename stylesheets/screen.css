@@ -972,7 +972,7 @@ div.panel-pane.pane-node-title {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003468}}
-.sidebar .block.find.transparent.hide-title p {
+.sidebar .block.find.button-block.hide-title p {
   margin: 0px;
   padding: 0;
 }
@@ -2135,4 +2135,11 @@ body.not-front.tn_culture .sidebar ul.menu li a:hover, body.not-front.tn_culture
 #main.grid-12 #panels-dnd-main .panel-col-last {
   margin-right: 0;
   width: 49.9%;
+}
+
+/*robs blog header blocks*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031240}}
+.page-blogs.tn-culture #content-top-region .block {
+  float: left;
+  width: 350px;
 }
