@@ -13,7 +13,8 @@ a.bigbutton:link, a.bigbutton:visited {
 	    background-image: -moz-linear-gradient(center top , $neutral, $neutral_tint_1);
 }
 
-
+#main-content .node a.bigbutton {
+}
 a.bigbutton.neutral {
 background-color: $neutral;
 background-image: -moz-linear-gradient(center top , $neutral, $neutral_tint_1);}

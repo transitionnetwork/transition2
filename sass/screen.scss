@@ -146,6 +146,7 @@ panels-flexible-row, .inside{
 position:relative;
 z-index:1;
 }
+
 .panel-panel{
 margin-top:0;
 display:block;
@@ -432,6 +433,10 @@ padding:$boxpad $boxpad 140px !important;
     background: url("images/nearest.png") no-repeat scroll right bottom $turquoise_tint_3;
     padding: 0 0 78px;
 }
+#main .panel-pane.button-pane .pane-content{
+background:transparent;
+padding:0;
+}
 #sidebar-right .find{background: url("images/nearest_small.png") no-repeat scroll bottom right $turquoise_tint_3;
 padding: 0 0 78px;
 	h2{
@@ -461,6 +466,8 @@ padding:0;
 }
 .sidebar .block.transparent .content p{padding:0;}
 .sidebar .block.hide-title.button-block p{margin: 0 0 10px;}
+.sidebar .block.find.transparent.hide-title p{margin: 0px;
+padding:0;}
 
 #sidebar-right .block{
 @include corner-lift;
@@ -602,7 +609,9 @@ margin:10px 0;
 #main-content .content img {
     background: none repeat scroll 0 0 $neutral_tint_3;
     border: 1px solid $neutral;
-    padding: 5px;
+    padding: 2px;
+	margin: 3px;
+	    border-radius: 2px 2px 2px 2px;
 }
 
 #main-content .content img.caption {
@@ -933,6 +942,18 @@ body.not-front.tn_culture{
 				    background: url("/sites/all/themes/transition2/stylesheets/images/noisy-texture-200x200.png") repeat scroll 0 0 $tn_orange;
 				color:white;}
 }
+.view-tc-latest-blog{
+	h3	{
+		font-size:1em;
+		}
+	.views-row{
+		margin-bottom:1em; padding-bottom:1em; border-bottom:2px solid #FD9500;
+		}
+	}
+.block.button-block .block-title{
+    margin: 0;
+    padding: 0;
+}
 
 /*Ingredients fixes*/
 
@@ -1195,4 +1216,23 @@ border-bottom: 2px solid #DCE1DA;}
 	    padding: 2px 5px;
 	    text-align: center;
 	}
+}
+
+/*panels editing override fixes*/
+#main.grid-12 {
+#panels-dnd-main{
+.panel-panel .inside,
+panels-flexible-row, .inside{
+position:inherit;
+z-index:auto;
+}
+.links{
+padding:0;
+margin:0;
+}
+.panel-col-last {
+    margin-right: 0;
+    width: 49.9%;
+}
+}
 }
