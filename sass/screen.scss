@@ -164,7 +164,6 @@ width:700px;
 .panel-panel.panel-col-middle{
 margin-top:$boxpad;
 position:relative;
-top:$boxpad;
 }
 	
 .front .panel-pane-inner{
@@ -326,7 +325,7 @@ border-radius: $corner;
 .front .pane-slideshows-panel-pane-1{
 background:none;
 box-shadow:none;
-margin:0 0 0 0;
+margin:0 0 20px 0;
 }
 .pane-slideshows-panel-pane-1 .panel-pane-inner{
 margin:0;
@@ -942,7 +941,7 @@ body.not-front.tn_culture{
 				    background: url("/sites/all/themes/transition2/stylesheets/images/noisy-texture-200x200.png") repeat scroll 0 0 $tn_orange;
 				color:white;}
 }
-.view-tc-latest-blog{
+#block-views-tc_latest_blog-block_2{
 	h3	{
 		font-size:1em;
 		}
