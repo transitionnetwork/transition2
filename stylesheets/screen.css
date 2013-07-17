@@ -2144,4 +2144,47 @@ body.page-blogs.tn-culture #content-top-region .block,
 #block-block-86 {
   float: left;
   width: 350px;
+  position: relative;
+  background: #f7f6f3 url(images/noisy-texture-200x200.png);
+  border-radius: 2px;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\0000386}}
+body.page-blogs.tn-culture #content-top-region .block:before, body.page-blogs.tn-culture #content-top-region .block:after,
+#block-block-82:before,
+#block-block-82:after,
+#block-block-86:before,
+#block-block-86:after {
+  bottom: 15px;
+  content: '\0020';
+  height: 40px;
+  max-width: 50%;
+  position: absolute;
+  width: 50%;
+  z-index: -1;
+  -webkit-box-shadow: 0 15px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 15px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 15px 5px rgba(0, 0, 0, 0.2);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\0000396}}
+body.page-blogs.tn-culture #content-top-region .block:before,
+#block-block-82:before,
+#block-block-86:before {
+  -webkit-transform: skew(-4deg, -3deg);
+  -moz-transform: skew(-4deg, -3deg);
+  -ms-transform: skew(-4deg, -3deg);
+  -o-transform: skew(-4deg, -3deg);
+  transform: skew(-4deg, -3deg);
+  left: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003100}}
+body.page-blogs.tn-culture #content-top-region .block:after,
+#block-block-82:after,
+#block-block-86:after {
+  -webkit-transform: skew(4deg, 3deg);
+  -moz-transform: skew(4deg, 3deg);
+  -ms-transform: skew(4deg, 3deg);
+  -o-transform: skew(4deg, 3deg);
+  transform: skew(4deg, 3deg);
+  right: 8px;
 }
