@@ -132,8 +132,7 @@ display: inline-block;
 }
 .panel-pane{
 border-radius: $corner;
-    display: inline-block;
-    width: 100%;
+    display: block;
 margin:0 10px 10px 0px;
 background:$neutral_tint_3 $containtertexture;
 }
@@ -439,7 +438,7 @@ padding: 0 0 78px;
 	width:120px;
 	}
 	.content{
-	padding-right:52px
+	padding-right:60px
 	}
 }
 .node-type-profile .panels-flexible-region-inside-first .panel-pane .pane-content {
