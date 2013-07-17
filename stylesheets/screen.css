@@ -2143,7 +2143,7 @@ body.page-blogs.tn-culture #content-top-region .block,
 #block-block-82,
 #block-block-86 {
   float: left;
-  width: 350px;
+  width: 345px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031246}}
@@ -2152,7 +2152,13 @@ body.page-blogs.tn-culture #content-top-region .block,
   z-index: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031251}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031250}}
+#block-block-82 p {
+  padding: 0;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\000031254}}
 #block-block-86 {
   position: relative;
   background: #f7f6f3 url(images/noisy-texture-200x200.png);
