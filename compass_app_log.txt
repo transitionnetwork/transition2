@@ -4232,3 +4232,6 @@ Load paths:
 2013-07-17 12:23:16 overwrite stylesheets/screen.css 
 2013-07-17 12:23:16     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
 2013-07-17 12:23:16 identical stylesheets/skipnav.css 
+2013-07-17 12:26:43 overwrite stylesheets/screen.css 
+2013-07-17 12:26:44     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
+2013-07-17 12:26:44 identical stylesheets/skipnav.css 
