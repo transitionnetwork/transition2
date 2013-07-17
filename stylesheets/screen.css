@@ -1528,85 +1528,90 @@ a.bigbutton:link, a.bigbutton:visited {
   background-image: -moz-linear-gradient(center top, #d2cdb5, #dad6c3);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000316}}
+#main-content .node a.bigbutton {
+  border-bottom-color: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000319}}
 a.bigbutton.neutral {
   background-color: #d2cdb5;
   background-image: -moz-linear-gradient(center top, #d2cdb5, #dad6c3);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000323}}
 a.bigbutton.neutral-tint-1 {
   background-color: #dad6c3;
   background-image: -moz-linear-gradient(center top, #dad6c3, #e8e6db);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000327}}
 a.bigbutton.neutral-tint-2 {
   background-color: #e8e6db;
   background-image: -moz-linear-gradient(center top, #e8e6db, #f0eee7);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000331}}
 a.bigbutton.neutraltint-3 {
   background-color: #f0eee7;
   background-image: -moz-linear-gradient(center top, #f0eee7, #f7f6f3);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000335}}
 a.bigbutton.turquoise {
   background-color: #008b98;
   background-image: -moz-linear-gradient(center top, #008b98, #5a9fab);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000339}}
 a.bigbutton.turquoise-tint-1 {
   background-color: #5a9fab;
   background-image: -moz-linear-gradient(center top, #5a9fab, #8bb5bf);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000343}}
 a.bigbutton.turquoise-tint-2 {
   background-color: #8bb5bf;
   background-image: -moz-linear-gradient(center top, #8bb5bf, #b5cdd4);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000347}}
 a.bigbutton.turquoise-tint-3 {
   background-color: #b5cdd4;
   background-image: -moz-linear-gradient(center top, #b5cdd4, #dbe6e9);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000351}}
 a.bigbutton.green {
   background-color: #98b757;
   background-image: -moz-linear-gradient(center top, #98b757, #afc47a);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000355}}
 a.bigbutton.green-tint-1 {
   background-color: #afc47a;
   background-image: -moz-linear-gradient(center top, #afc47a, #c4d39d);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000359}}
 a.bigbutton.green-tint-2 {
   background-color: #c4d39d;
   background-image: -moz-linear-gradient(center top, #c4d39d, #d8e2bf);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000363}}
 a.bigbutton.green-tint-3 {
   background-color: #d8e2bf;
   background-image: -moz-linear-gradient(center top, #d8e2bf, #ecf0e0);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000367}}
 a.bigbutton.red {
   background-color: #d0232a;
   background-image: -moz-linear-gradient(center top, #d0232a, #d95648);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/buttons\.scss}line{font-family:\0000372}}
 a.bigbutton:hover {
   background-color: #ffdd60;
   background-image: -moz-linear-gradient(center top, #ffdd60, #ffe386);

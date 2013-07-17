@@ -4250,3 +4250,8 @@ Load paths:
 2013-07-17 12:39:30 identical stylesheets/screen.css 
 2013-07-17 12:39:31     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
 2013-07-17 12:39:31 identical stylesheets/skipnav.css 
+2013-07-17 12:45:10     error sass/buttons.scss (Line 12: Undefined variable: "$yellow".)
+2013-07-17 12:45:10 identical stylesheets/buttons.css 
+2013-07-17 12:45:12 overwrite stylesheets/screen.css 
+2013-07-17 12:45:13     error sass/skipnav.scss (Line 43: Invalid CSS after "}": expected "}", was "")
+2013-07-17 12:45:13 identical stylesheets/skipnav.css 
