@@ -651,7 +651,7 @@ div.panel-pane.pane-node-title {
 
 /*join button*/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003281}}
-#block-block-50 .top-links-ul li {
+#top-links .top-links-ul li {
   background: repeat scroll 0 0 transparent;
   /* fallback/image non-cover color */
   background-color: #c4d39d;
@@ -668,7 +668,7 @@ div.panel-pane.pane-node-title {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003285}}
-#block-block-50 .top-links-ul li.first {
+#top-links .top-links-ul li.first {
   background: repeat scroll 0 0 transparent;
   /* fallback/image non-cover color */
   background-color: #e38471;
@@ -685,7 +685,7 @@ div.panel-pane.pane-node-title {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/tndev\/sites\/all\/themes\/transition2\/sass\/screen\.scss}line{font-family:\00003288}}
-#block-block-50 .top-links-ul li.last {
+#top-links .top-links-ul li.last {
   background: repeat scroll 0 0 transparent;
   /* fallback/image non-cover color */
   background-color: #8bb5bf;
