@@ -76,6 +76,9 @@
   <?php endif; ?>
 
   <div class="content">
+	
+    <?php print $node->content['field_em_video']['#children'] ?>
+    <?php print $node->content['field_featured_image']['#children'] ?>
     <?php print $node->content['body']['#value'] ?>
     <?php print $node->content['field_themes']['#children']; ?>
     <?php print $node->content['field_original_url']['#children']; ?>
