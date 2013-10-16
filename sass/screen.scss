@@ -609,8 +609,10 @@ margin:10px 0;
     background: none repeat scroll 0 0 $neutral_tint_3;
     border: 1px solid $neutral;
     padding: 2px;
-	margin: 3px;
-	    border-radius: 2px 2px 2px 2px;
+    margin: 3px;
+    border-radius: 2px 2px 2px 2px;
+    max-width: 100%;
+    height: auto;
 }
 
 #main-content .content img.caption {
