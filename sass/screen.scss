@@ -278,37 +278,42 @@ box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
 border-radius:0 0  $corner  $corner;
 }
 
-#block-block-50 .top-links-ul li {
-@include gradientbutton($green_tint_2, $green);
-}
-
-#block-block-50 .top-links-ul li.first{
-@include gradientbutton($red_tint_2, $red);
-}
-#block-block-50 .top-links-ul li.last{
-@include gradientbutton($turquoise_tint_2, $turquoise);
-}
-.top-links-ul li:after{
-content:none;
-}
-.top-links-ul li {
-    padding: 0 0.5em;
-margin-right:5px;
-}
-#top-links .block {
+#top-links {
+  .block {
     margin-top: 0;}
-#top-links .intro-links-ul{
-margin-top:7px;
+    #top-links .intro-links-ul{
+    margin-top:7px;
+  }
+  
+ .top-links-ul {
+    li {
+      @include gradientbutton($green_tint_2, $green);
+      padding: 6px 0.5em 3px;
+      margin-right:5px;
+      font-size:13px;
+      position:relative;
+      top:-2px;
+      
+      a, 
+      a:visited {
+        text-shadow:none;
+      }
+    }
+
+    li.first{
+      @include gradientbutton($red_tint_2, $red);
+    }
+
+    li.last{
+      @include gradientbutton($turquoise_tint_2, $turquoise);
+    }
+  
+    li:after{
+      content:none;
+    }
+  }
 }
-#top-links .top-links-ul li {
-padding-top:6px;
-font-size:13px;
-padding-bottom:3px;
-position:relative;
-top:-2px;
-}
-.top-links-ul li a, .top-links-ul li a:visited {
-text-shadow:none;}
+ 
 
 
 
@@ -850,8 +855,6 @@ div.messages, .messages.error {
 
 
 @import "buttons";
-/*@import "v1";*/
-/*@import "v2";*/
 
 
 /*profiles*/

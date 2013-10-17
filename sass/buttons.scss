@@ -1,16 +1,16 @@
 a.bigbutton:link, a.bigbutton:visited {
-	    border: 2px solid #FFFFFF;
-	    border-radius: 30px;
-	    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-	    color: #FFFFFF;
-	    display: block;
-	    font: bold 1.1em Arial,Sans-serif;
-		margin: 5px 10px;
-	    padding: 10px;
-	    text-align: center;
-	    transition: all 0.2s linear 0s;
-	    background-color: $yellow;
-	    background-image: -moz-linear-gradient(center top , $neutral, $neutral_tint_1);
+      border: 2px solid #FFFFFF;
+      border-radius: 30px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+      color: #FFFFFF;
+      display: block;
+      font: bold 1.1em Arial,Sans-serif;
+    margin: 5px 10px;
+      padding: 10px;
+      text-align: center;
+      transition: all 0.2s linear 0s;
+      background-color: $yellow;
+      background-image: -moz-linear-gradient(center top , $neutral, $neutral_tint_1);
 }
 
 #main-content .node a.bigbutton {
