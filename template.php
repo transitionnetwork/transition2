@@ -145,7 +145,7 @@ function phptemplate_preprocess_block(&$vars, $hook) {
   $vars['classes'] = implode(' ', $classes);
 
   if (user_access('administer blocks')) { // Block Edit Link
-	  $vars['edit_block'] = l(theme_image(path_to_theme() .'/images/edit.png', 'Edit Block', 'Edit Block'), 'admin/build/block/configure/'. $block->module .'/'. $block->delta, array('query' => drupal_get_destination(), 'html' => TRUE));
+    $vars['edit_block'] = l(theme_image(path_to_theme() .'/images/edit.png', 'Edit Block', 'Edit Block'), 'admin/build/block/configure/'. $block->module .'/'. $block->delta, array('query' => drupal_get_destination(), 'html' => TRUE));
   }
 }
 
@@ -698,9 +698,9 @@ function transition2_menu_item_link($link) {
  * Adds jquery for the What Why How Where menu
  */
 function transition2_preprocess_page(&$vars) {
-	jquery_ui_add('ui.accordion');
-	$path_js = drupal_get_path('theme', 'transition2').'/js/';
-  	drupal_add_js($path_js.'wwhw_menu.js');
+  jquery_ui_add('ui.accordion');
+  $path_js = drupal_get_path('theme', 'transition2').'/js/';
+  drupal_add_js($path_js.'wwhw_menu.js');
 
 }
 
@@ -726,3 +726,15 @@ function transition2_imagecache_formatter_featured_image_default($element) {
   return theme('imagecache', $presetname, $item['filepath'], $item['data']['alt'], $item['data']['title'], array('class' => $class));
 }
 
+/**
+ * Make YouTube links use HTTPS on HTTPS connetions.
+ * 
+ * @see https://drupal.org/node/110046
+ */
+function transition2_preprocess_media_youtube_default_external(&$variables) {
+  $ssl = (!empty($_SERVER['HTTPS']));
+  if ($ssl) {
+    $variables['url']       = preg_replace('/^http:/', 'https:', $variables['url']);
+    $variables['thumbnail'] = preg_replace('/src="http:/', 'src="https:', $variables['thumbnail']);
+  }
+}
