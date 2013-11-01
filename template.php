@@ -727,14 +727,27 @@ function transition2_imagecache_formatter_featured_image_default($element) {
 }
 
 /**
- * Make YouTube links use HTTPS on HTTPS connetions.
- * 
- * @see https://drupal.org/node/110046
+ * Make YouTube links use HTTPS or HTTPS depending on page context.
  */
-function transition2_preprocess_media_youtube_default_external(&$variables) {
-  $ssl = (!empty($_SERVER['HTTPS']));
-  if ($ssl) {
-    $variables['url']       = preg_replace('/^http:/', 'https:', $variables['url']);
-    $variables['thumbnail'] = preg_replace('/src="http:/', 'src="https:', $variables['thumbnail']);
-  }
+function transition2_preprocess_media_youtube_html5(&$variables) {
+  $variables['url']       = str_replace('http:', '', $variables['url']);
+  $variables['thumbnail'] = str_replace('src="http:', 'src="', $variables['thumbnail']);
 }
+
+/**
+ * Make Vimeo links use HTTPS or HTTPS depending on page context.
+ */
+function transition2_preprocess_media_vimeo_universal(&$variables) {
+  _media_vimeo_options($variables);
+  if ($variables['video_code']) {
+    $variables['query'] = isset($variables['query']) ? $variables['query'] : array();
+    foreach (array('fullscreen', 'show_title', 'show_byline', 'show_portrait', 'color', 'autoplay') as $key) {
+      if (isset($variables[$key])) {
+        $variables['query'][$key] = $variables[$key];
+      }
+    }
+    $variables['iframe_url'] = url('http://player.vimeo.com/video/' . $variables['video_code'], array('query' => $variables['query']));
+    $variables['iframe_url'] = str_replace('http:', '', $variables['iframe_url']);
+  } 
+}
+
