@@ -933,10 +933,12 @@ border-bottom-color: #dce1da;
 
 #main-content .node-type-profile .content, #main-content .node-type-initiative_profile .content, #main-content .node-type-project_profile .content { border-bottom: 0px }
 
-#main-content img {
+#main-content .field img,
+#main-content .content img {
   height: auto;
   max-width: 100%;
 }
+
 
 #sidebar-right, #sidebar-left { padding-top: 28px }
 
