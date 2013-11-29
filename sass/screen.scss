@@ -1243,7 +1243,6 @@ margin:0;
 
 /*robs blog header blocks*/
 body.page-blogs.tn-culture #content-top-region .block,
-#block-block-82,
 #block-block-86{
 float:left;
 width:345px;}
@@ -1252,12 +1251,34 @@ width:345px;}
     position: relative;
     z-index: 1;
 }
-#block-block-82 p{
-padding:0;
-margin:0;
-}
 #block-block-86{
 @include corner-lift;
 background:$neutral_tint_4 $containtertexture;
 border-radius: $corner;
 padding:0;}
+
+/*Social media buttons*/
+#block-block-82{
+	
+		img.for-css-replacement{
+		width: 45px; /* Give the displacement image dimensions */
+		height: 45px;
+		border: 0; /* Ensure this element doesn't get the defaul linked image border */
+		}
+		.button-label{
+		position: absolute; /* Send the title text off-left so it is heard but not seen */
+		left: -9999px;
+		}
+		a{
+		transition: all 0s linear 0s;
+		display:inline-block;
+		line-height:0;
+		background-image: url("/sites/all/themes/transition2/images/socialbuttons.png");
+		border:0;
+		background-repeat:none;
+		}
+		a.twitterbutton:link,a.twitterbutton:visited{background-position:0 -90px;}
+		a.twitterbutton:hover{background-position:0 -135px;}
+		a.facebookbutton:link,a.facebookbutton:visited{background-position: 0 0;}
+		a.facebookbutton:hover{background-position: 0 -45px;}
+}

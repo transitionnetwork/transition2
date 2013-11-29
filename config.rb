@@ -26,4 +26,6 @@ preferred_syntax = :scss
 sass_options = {:debug_info=>false} # by Compass.app 
 
 # output_style   = :compressed
-environment    = :production
+# environment    = :production
+
+output_style = :compressed # by Compass.app 
