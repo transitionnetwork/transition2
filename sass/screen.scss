@@ -1243,6 +1243,7 @@ margin:0;
 
 /*robs blog header blocks*/
 body.page-blogs.tn-culture #content-top-region .block,
+.tn-culture-header,
 #block-block-86{
 float:left;
 width:345px;}
@@ -1251,14 +1252,18 @@ width:345px;}
     position: relative;
     z-index: 1;
 }
-#block-block-86{
+.tn-culture-header p{
+padding:0;
+margin:0;
+}
+#block-block-86, {
 @include corner-lift;
 background:$neutral_tint_4 $containtertexture;
 border-radius: $corner;
 padding:0;}
 
 /*Social media buttons*/
-#block-block-82{
+#sidebar-right .social-media-promo{
 	
 		img.for-css-replacement{
 		width: 45px; /* Give the displacement image dimensions */
