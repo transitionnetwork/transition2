@@ -1263,7 +1263,9 @@ border-radius: $corner;
 padding:0;}
 
 /*Social media buttons*/
-#sidebar-right .social-media-promo{
+#sidebar-right .social-media-promo .content{
+	background: transparent;
+    padding: 0 10px;
 	
 		img.for-css-replacement{
 		width: 45px; /* Give the displacement image dimensions */
