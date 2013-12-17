@@ -136,6 +136,9 @@ border-radius: $corner;
 margin:0 10px 10px 0px;
 background:$neutral_tint_3 $containtertexture;
 }
+.panel-pane.pane-custom{
+margin-right:0;
+}
 .front .panel-pane, .page-nearby .panel-pane{
 @include corner-lift;
 background:$neutral_tint_4;
