@@ -1,3 +1,4 @@
+
 a.bigbutton:link, a.bigbutton:visited {
       border: 2px solid #FFFFFF;
       border-radius: 30px;
@@ -16,57 +17,83 @@ a.bigbutton:link, a.bigbutton:visited {
 #main-content .node a.bigbutton {
 border-bottom-color:none;
 }
-a.bigbutton.neutral {
+a.bigbutton.neutral:link, a.bigbutton.neutral:visited{
 background-color: $neutral;
-background-image: -moz-linear-gradient(center top , $neutral, $neutral_tint_1);}
+background-image: -moz-linear-gradient(center top , $neutral, $neutral_tint_1);
+border: 2px solid #FFFFFF;
+color: #FFFFFF;}
 
-a.bigbutton.neutral-tint-1 {
+a.bigbutton.neutral-tint-1:link, a.bigbutton.neutral-tint-1:visited {
 background-color: $neutral_tint_1;
-background-image: -moz-linear-gradient(center top , $neutral_tint_1, $neutral_tint_2);}
+background-image: -moz-linear-gradient(center top , $neutral_tint_1, $neutral_tint_2);
+border: 2px solid #FFFFFF;
+color: #FFFFFF;}
 
-a.bigbutton.neutral-tint-2 {
+a.bigbutton.neutral-tint-2:link, a.bigbutton.neutral-tint-2:visited {
 background-color: $neutral_tint_2;
-background-image: -moz-linear-gradient(center top , $neutral_tint_2, $neutral_tint_3);}
+background-image: -moz-linear-gradient(center top , $neutral_tint_2, $neutral_tint_3);
+border: 2px solid #FFFFFF;
+color: #FFFFFF;}
 
-a.bigbutton.neutraltint-3 {
+a.bigbutton.neutraltint-3:link, a.bigbutton.neutraltint-3:visited {
 background-color: $neutral_tint_3;
-background-image: -moz-linear-gradient(center top , $neutral_tint_3, $neutral_tint_4);}
+background-image: -moz-linear-gradient(center top , $neutral_tint_3, $neutral_tint_4);
+border: 2px solid #FFFFFF;
+color: #FFFFFF;}
 
-a.bigbutton.turquoise {
+a.bigbutton.turquoise:link, a.bigbutton.turquoise:visited {
 background-color: $turquoise;
-background-image: -moz-linear-gradient(center top , $turquoise, $turquoise_tint_1);}
+background-image: -moz-linear-gradient(center top , $turquoise, $turquoise_tint_1);
+border: 2px solid #FFFFFF;
+color: #FFFFFF;}
 
-a.bigbutton.turquoise-tint-1 {
+a.bigbutton.turquoise-tint-1:link, a.bigbutton.turquoise-tint-1:visited {
 background-color: $turquoise_tint_1;
-background-image: -moz-linear-gradient(center top , $turquoise_tint_1, $turquoise_tint_2);}
+background-image: -moz-linear-gradient(center top , $turquoise_tint_1, $turquoise_tint_2);
+border: 2px solid #FFFFFF;
+color: #FFFFFF;}
 
-a.bigbutton.turquoise-tint-2 {
+a.bigbutton.turquoise-tint-2:link, a.bigbutton.turquoise-tint-2:visited {
 background-color: $turquoise_tint_2;
-background-image: -moz-linear-gradient(center top , $turquoise_tint_2, $turquoise_tint_3);}
+background-image: -moz-linear-gradient(center top , $turquoise_tint_2, $turquoise_tint_3);
+border: 2px solid #FFFFFF;
+color: #FFFFFF;}
 
-a.bigbutton.turquoise-tint-3 {
+a.bigbutton.turquoise-tint-3:link, a.bigbutton.turquoise-tint-3:visited {
 background-color: $turquoise_tint_3;
-background-image: -moz-linear-gradient(center top , $turquoise_tint_3, $turquoise_tint_4);}
+background-image: -moz-linear-gradient(center top , $turquoise_tint_3, $turquoise_tint_4);
+border: 2px solid #FFFFFF;
+color: #FFFFFF;}
 
-a.bigbutton.green {
+a.bigbutton.green:link, a.bigbutton.green:visited {
 background-color: $green;
-background-image: -moz-linear-gradient(center top , $green, $green_tint_1);}
+background-image: -moz-linear-gradient(center top , $green, $green_tint_1);
+border: 2px solid #FFFFFF;
+color: #FFFFFF;}
 
-a.bigbutton.green-tint-1 {
+a.bigbutton.green-tint-1:link, a.bigbutton.green-tint-1:visited {
 background-color: $green_tint_1;
-background-image: -moz-linear-gradient(center top , $green_tint_1, $green_tint_2);}
+background-image: -moz-linear-gradient(center top , $green_tint_1, $green_tint_2);
+border: 2px solid #FFFFFF;
+color: #FFFFFF;}
 
-a.bigbutton.green-tint-2 {
+a.bigbutton.green-tint-2:link, a.bigbutton.green-tint-2:visited {
 background-color: $green_tint_2;
-background-image: -moz-linear-gradient(center top , $green_tint_2, $green_tint_3);}
+background-image: -moz-linear-gradient(center top , $green_tint_2, $green_tint_3);
+border: 2px solid #FFFFFF;
+color: #FFFFFF;}
 
-a.bigbutton.green-tint-3 {
+a.bigbutton.green-tint-3:link, a.bigbutton.green-tint-3:visited {
 background-color: $green_tint_3;
-background-image: -moz-linear-gradient(center top , $green_tint_3, $green_tint_4);}
+background-image: -moz-linear-gradient(center top , $green_tint_3, $green_tint_4);
+border: 2px solid #FFFFFF;
+color: #FFFFFF;}
 
-a.bigbutton.red {
+a.bigbutton.red:link, a.bigbutton.red:visited {
 background-color: $red;
-background-image: -moz-linear-gradient(center top , $red, $red_tint_1);}
+background-image: -moz-linear-gradient(center top , $red, $red_tint_1);
+border: 2px solid #FFFFFF;
+color: #FFFFFF;}
 
 
 a.bigbutton:hover {
