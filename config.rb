@@ -23,11 +23,10 @@ javascripts_dir = "javascripts"
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
 preferred_syntax = :scss
 
-sass_options = {:debug_info=>false} # by Compass.app 
-
 # output_style   = :compressed
 # environment    = :production
 
-output_style = :compressed # by Compass.app 
+line_comments = false # by Compass.app 
+sass_options = {:debug_info=>false} # by Compass.app 
 
-line_comments = true # by Compass.app 
+output_style = :expanded # by Compass.app 

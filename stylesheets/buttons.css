@@ -1,9 +1,9 @@
 /*
 Syntax error: Undefined variable: "$yellow".
-        on line 13 of /Users/ben/Sites/tndev/sites/all/themes/transition2/sass/buttons.scss
+        on line 14 of /Users/ben/Sites/tndev/sites/all/themes/transition2/sass/buttons.scss
 
 Backtrace:
-/Users/ben/Sites/tndev/sites/all/themes/transition2/sass/buttons.scss:13
+/Users/ben/Sites/tndev/sites/all/themes/transition2/sass/buttons.scss:14
 /Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/script/variable.rb:49:in `_perform'
 /Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/script/node.rb:40:in `perform'
 /Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.8/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
@@ -54,7 +54,7 @@ file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/app.rb:1
 file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/ui/tray.rb:339:in `clean_project'
 file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/app.rb:207:in `try'
 file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/ui/tray.rb:338:in `clean_project'
-file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/ui/tray.rb:392:in `linecomments_handler'
+file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/ui/tray.rb:384:in `outputstyle_handler'
 file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/ui/tray.rb:71:in `run'
 file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/main.rb:115:in `run_tray'
 file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/main.rb:131:in `(root)'
@@ -64,4 +64,4 @@ file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/main.rb:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$yellow\".\A         on line 13 of /Users/ben/Sites/tndev/sites/all/themes/transition2/sass/buttons.scss"; }
+  content: "Syntax error: Undefined variable: \"$yellow\".\A         on line 14 of /Users/ben/Sites/tndev/sites/all/themes/transition2/sass/buttons.scss"; }

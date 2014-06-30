@@ -69,7 +69,7 @@ file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/app.rb:1
 file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/ui/tray.rb:339:in `clean_project'
 file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/app.rb:207:in `try'
 file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/ui/tray.rb:338:in `clean_project'
-file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/ui/tray.rb:392:in `linecomments_handler'
+file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/ui/tray.rb:384:in `outputstyle_handler'
 file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/ui/tray.rb:71:in `run'
 file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/main.rb:115:in `run_tray'
 file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/main.rb:131:in `(root)'
