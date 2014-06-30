@@ -29,3 +29,5 @@ sass_options = {:debug_info=>false} # by Compass.app
 # environment    = :production
 
 output_style = :compressed # by Compass.app 
+
+line_comments = true # by Compass.app 
